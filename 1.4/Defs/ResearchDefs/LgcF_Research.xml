@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchTabDef>
+		<defName>LgcF_Research</defName>
+		<label>LegacyFairy</label>
+	</ResearchTabDef>
+	
+	<ResearchProjectDef>
+	    <defName>LgcF_Knowledge</defName>
+	    <label>Knowledge</label>
+	    <description>You will learn about LegacyFairy.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>LgcF_Research</li>
+	    </tab>
+	    <researchViewX>0</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>LgcF_Gun</defName>
+	    <label>Gun Down on one's Luck</label>
+	    <description>Add a long-range gun that reduces the enemy's part durability.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>LgcF_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Gunsmithing</li>
+	      <li>LgcF_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>LgcF_Launcher</defName>
+	    <label>Tactical Bombing Launcher</label>
+	    <description>It will be possible to create a launcher that produces a powerful explosion.</description>
+	    <baseCost>2000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>LgcF_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>MicroelectronicsBasics</li>
+	      <li>LgcF_Gun</li>
+	    </prerequisites>
+	    <researchViewX>2</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>LgcF_Adjuster</defName>
+	    <label>Adjuster</label>
+	    <description>It will be possible to create a personality regulator that was once used for LegacyFairy.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>LgcF_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>LgcF_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>LgcF_Costumes</defName>
+	    <label>Costumes</label>
+	    <description>It will allow you to create LegacyFairy outfits.</description>
+	    <baseCost>500</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>LgcF_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>LgcF_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

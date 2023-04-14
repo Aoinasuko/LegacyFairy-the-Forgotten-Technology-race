@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LgcF_WishCannon.label>LgcF ウィッシュカノン</LgcF_WishCannon.label>
+  <LgcF_WishCannon.description>爆風を受けた相手を一時的に不幸にし致命傷を負わせやすくする不思議な大砲です.\n\n命中すると,部位の最大HPを一時的に減少させます.\n複数回当てることで重複します.</LgcF_WishCannon.description>
+  <LgcF_WishCannon.tools.0.label>バレル</LgcF_WishCannon.tools.0.label>
+
+  <LgcF_Cannon.label>LgcF カノン</LgcF_Cannon.label>
+
+  <LgcF_WishCluster.label>LgcF ウィッシュクラスター</LgcF_WishCluster.label>
+  <LgcF_WishCluster.description>爆風を受けた相手を一時的に不幸にし致命傷を負わせやすくする小型爆弾を連射するランチャーです.\n\n命中すると,部位の最大HPを一時的に減少させます.\n複数回当てることで重複します.</LgcF_WishCluster.description>
+  <LgcF_WishCluster.tools.0.label>バレル</LgcF_WishCluster.tools.0.label>
+
+  <LgcF_Cluster.label>LgcF クラスター</LgcF_Cluster.label>
+
+  <LgcF_WishBlaster.label>LgcF ウィッシュブラスター</LgcF_WishBlaster.label>
+  <LgcF_WishBlaster.description>命中した相手を一時的に不幸にし致命傷を負わせやすくする銃です.\n\n命中すると,部位の最大HPを一時的に減少させます.\n複数回当てることで重複します.</LgcF_WishBlaster.description>
+  <LgcF_WishBlaster.tools.0.label>バレル</LgcF_WishBlaster.tools.0.label>
+
+  <LgcF_Bullet.label>LgcF バレット</LgcF_Bullet.label>
+
+
+</LanguageData>

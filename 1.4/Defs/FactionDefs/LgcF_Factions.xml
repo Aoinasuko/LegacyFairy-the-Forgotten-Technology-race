@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>LgcF_LegacyFairyGroup</defName>
+    <label>LegacyFairy Group</label>
+    <description>A group of LegacyFairy. They have an advanced civilization and are hostile to other races.</description>
+    <colorSpectrum>
+      <li>(0.78, 0, 0.27)</li>
+      <li>(1, 0.74, 0.83)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+    <pawnSingular>LegacyFairy</pawnSingular>
+    <pawnsPlural>LegacyFairies</pawnsPlural>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <rescueesCanJoin>false</rescueesCanJoin>
+    <autoFlee>false</autoFlee>
+    <classicIdeo>false</classicIdeo>
+    <factionIconPath>LegacyFairy/UI/Faction/icon</factionIconPath>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>LgcF_FairyStory_Normal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <LegacyFairy_Fighter>10</LegacyFairy_Fighter>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <LegacyFairy_Fighter>10</LegacyFairy_Fighter>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <earliestRaidDays>90</earliestRaidDays>
+    <settlementTexturePath>LegacyFairy/UI/Faction/icon</settlementTexturePath>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </FactionDef>
+
+</Defs>

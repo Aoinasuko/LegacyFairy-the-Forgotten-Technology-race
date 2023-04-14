@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LegacyFairy_Visitor.label>レガシーフェアリーの来訪者</LegacyFairy_Visitor.label>
+  <LegacyFairy_Visitor.labelPlural>レガシーフェアリーの来訪者</LegacyFairy_Visitor.labelPlural>
+
+  <LegacyFairy_Fighter.label>レガシーフェアリーの戦闘員</LegacyFairy_Fighter.label>
+  <LegacyFairy_Fighter.labelPlural>レガシーフェアリーの戦闘員</LegacyFairy_Fighter.labelPlural>
+
+  <LegacyFairy_Slave.label>レガシーフェアリーの奴隷</LegacyFairy_Slave.label>
+  <LegacyFairy_Slave.labelPlural>レガシーフェアリーの奴隷</LegacyFairy_Slave.labelPlural>
+
+
+</LanguageData>

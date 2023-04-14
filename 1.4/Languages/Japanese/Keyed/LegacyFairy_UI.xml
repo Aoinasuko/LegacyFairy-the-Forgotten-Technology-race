@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LegacyFairy.UI.WP>WP</LegacyFairy.UI.WP>
+
+  <LegacyFairy.UI.disabled_LowWP>WPが足りない</LegacyFairy.UI.disabled_LowWP>
+  <LegacyFairy.UI.disabled_Down>動けない</LegacyFairy.UI.disabled_Down>
+  <LegacyFairy.UI.disabled_Cooldown>クールダウン中</LegacyFairy.UI.disabled_Cooldown>
+
+  <LegacyFairy.UI.label_BrillianceCharge>輝きチャージ</LegacyFairy.UI.label_BrillianceCharge>
+  <LegacyFairy.UI.desc_BrillianceCharge>輝きの力を用いて,射撃にかかる時間を大幅に短縮します.\n\n1秒につき1WP消費します.</LegacyFairy.UI.desc_BrillianceCharge>
+
+  <LegacyFairy.UI.label_PrayertoDestiny>運命への祈り</LegacyFairy.UI.label_PrayertoDestiny>
+  <LegacyFairy.UI.desc_PrayertoDestiny>一部を除いた任意のアイテム,若しくは生物をコロニー付近にドロップポットで落下させます.\nその後,落ちてきたアイテムのシルバーでの価値に応じたWPを消費します.\n\n生物は何処にも所属しておらず,麻酔状態で落下してきます.\n\nアイテムを選択した場合,WPが余っている場合はスタックの上限まで召喚しようとします.\n\nクールダウン:10日</LegacyFairy.UI.desc_PrayertoDestiny>
+
+  <LegacyFairy.Item.LetsWish>運命への祈り!</LegacyFairy.Item.LetsWish>
+  <LegacyFairy.Item.Summon>召喚</LegacyFairy.Item.Summon>
+  <LegacyFairy.Item.DontWish>祈りの空打ちは出来ません.</LegacyFairy.Item.DontWish>
+  <LegacyFairy.Item.SoldOut>あ,それ在庫切れ.</LegacyFairy.Item.SoldOut>
+  <LegacyFairy.Item.WishEnd>あなたのコロニーに{0}が降ってきた.</LegacyFairy.Item.WishEnd>
+
+</LanguageData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef ParentName="Bomb">
+    <defName>LgcF_Bomb</defName>
+    <explosionColorCenter>(0.5, 0.5, 1)</explosionColorCenter>
+    <explosionColorEdge>(0.3, 0.3, 0.8)</explosionColorEdge>
+    <additionalHediffs>
+      <li>
+        <hediff>LgcF_SoulDepletion</hediff>
+        <severityFixed>0.1</severityFixed>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  
+  <DamageDef ParentName="Bullet">
+    <defName>LgcF_Bullet</defName>
+    <additionalHediffs>
+      <li>
+        <hediff>LgcF_SoulDepletion</hediff>
+        <severityFixed>0.2</severityFixed>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+
+</Defs>

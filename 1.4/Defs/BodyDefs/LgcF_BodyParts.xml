@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>LgcF_Wing</defName>
+    <label>Wing</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <spawnThingOnRemoved>LgcF_Wing</spawnThingOnRemoved>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+</Defs>

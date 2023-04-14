@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- 羽の元 -->
+  <HediffDef Name="LgcF_WingBase" ParentName="ImplantHediffBase" Abstract="True">
+    <priceImpact>true</priceImpact>
+  </HediffDef>
+
+  <ThingDef Name="LgcF_BodyPartWingBase" ParentName="BodyPartBase" Abstract="True">
+    <techLevel>Archotech</techLevel>
+    <tradeability>Sellable</tradeability>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(189,169,118)</color>
+    </graphicData>
+    <statBases>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!-- 普通の羽 -->
+
+  <ThingDef ParentName="LgcF_BodyPartWingBase">
+    <defName>LgcF_Wing</defName>
+    <label>LgcF Wing</label>
+    <description>This is a wing.</description>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+    </statBases>
+  </ThingDef>
+  
+</Defs>

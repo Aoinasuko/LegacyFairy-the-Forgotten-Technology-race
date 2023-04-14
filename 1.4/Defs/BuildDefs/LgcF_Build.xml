@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>LgcF_PersonalityRegulator</defName>
+		<label>LgcF Personality Regulator</label>
+		<description>This bed is a device that takes roughly a day's time to brainwash a subject into becoming a member of the group.\n\nAccording to the information we have obtained, the person who created LegacyFairy used to bind LegacyFairy to this machine, brainwash her, and make her his slave.</description>
+		<thingClass>LegacyFairy_Race.Build_PersonalityRegulator</thingClass>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<passability>PassThroughOnly</passability>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>LegacyFairy/Build/PersonalityRegulator/PersonalityRegulator</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<color>(255,255,255)</color>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1,1,1)</volume>
+				<offset>(0, 0, 0)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,2)</size>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>LgcF_Adjuster</li>
+		</researchPrerequisites>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>5000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Mass>10</Mass>
+			<Cleanliness>0</Cleanliness>
+		</statBases>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>BEPFT_Building</designationCategory>
+		<comps>
+			<li Class="CompProperties_AssignableToPawn">
+				<drawAssignmentOverlay>false</drawAssignmentOverlay>
+				<compClass>CompAssignableToPawn_Bed</compClass>
+			</li>
+		</comps>
+		<building>
+			<bed_canBeMedical>false</bed_canBeMedical>
+			<bed_showSleeperBody>true</bed_showSleeperBody>
+			<bed_healPerDay>4</bed_healPerDay>
+		</building>
+		<pathCost>60</pathCost>
+		<castEdgeShadows>False</castEdgeShadows>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>LgcF_ExecutionBed</defName>
+		<label>LgcF Execution Bed</label>
+		<description>This bed restrains the sleeper and decapitates him after one hour. Ideal if you want to obtain flesh without killing with your own hands.</description>
+		<thingClass>LegacyFairy_Race.Build_PersonalityRegulator</thingClass>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<passability>PassThroughOnly</passability>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>LegacyFairy/Build/PersonalityRegulator/PersonalityRegulator</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<color>(255,255,255)</color>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1,1,1)</volume>
+				<offset>(0, 0, 0)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,2)</size>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>LgcF_Adjuster</li>
+		</researchPrerequisites>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>5000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Mass>10</Mass>
+			<Cleanliness>0</Cleanliness>
+		</statBases>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>BEPFT_Building</designationCategory>
+		<comps>
+			<li Class="CompProperties_AssignableToPawn">
+				<drawAssignmentOverlay>false</drawAssignmentOverlay>
+				<compClass>CompAssignableToPawn_Bed</compClass>
+			</li>
+		</comps>
+		<building>
+			<bed_canBeMedical>false</bed_canBeMedical>
+			<bed_showSleeperBody>true</bed_showSleeperBody>
+			<bed_healPerDay>4</bed_healPerDay>
+		</building>
+		<pathCost>60</pathCost>
+		<castEdgeShadows>False</castEdgeShadows>
+	</ThingDef>
+
+</Defs>

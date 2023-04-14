@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<LegacyFairy.Update.Title>LegacyFairy Update</LegacyFairy.Update.Title>
+
+<LegacyFairy.Update.label>
+2023/03/27(0.1.1.0):
+*Fixed some graphics
+
+*Separated FacialAnimation definitions into separate mods
+To reduce the load at startup, I have separated FacialAnimation images and definitions into separate mods.
+Please subscribe from the collection.
+
+2023/03/05(0.1.0.1):
+*LegacyFairy now appear dressed according to their roles
+
+2023/02/24(0.1.0.0):
+*Upload
+
+</LegacyFairy.Update.label>
+
+</LanguageData>

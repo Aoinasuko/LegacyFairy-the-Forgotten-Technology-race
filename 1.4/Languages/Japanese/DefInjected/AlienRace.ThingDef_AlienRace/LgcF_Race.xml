@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LegacyFairy_Pawn.label>レガシーフェアリー</LegacyFairy_Pawn.label>
+  <LegacyFairy_Pawn.description>レガシーフェアリーは近年存在が発見された,人懐っこく人間の子供程度の大きさの妖精のような種族です.\n遥か昔に人間によって作られ,その後「忘れられた大陸戦争」によって絶滅させられた種族である「妖精」が,何らかの方法によって復活したことがこの種族が生まれた経緯との噂が発見と同時期に各地で流れ始めましたが,真偽は不明です.\n\n遺伝子について研究を行った所,リトルフェアリーとほぼ一致していることが判明しており,前述の噂が本当であればリトルフェアリーはレガシーフェアリーを元にして生まれたのでは無いかと考察されています.\n\n彼女たちは極端に体が弱い代わりに,極めて高い知能を持っており,惑星間移動程度なら「運命を操作する」とも言われている自身の力を活用することで難なく行うことが出来ます.また,奉仕種族としての適性も持っているため,別の星に移住したレガシーフェアリーが他種族に仕えていることもあるようです.しかし,一部のレガシーフェアリーの派閥は異種族に敵対しており,高い文明力による襲撃を仕掛けることがあるようです.\n\n彼女たちは「輝きの力」を持っていますが,リトルフェアリーの様に攻撃を防ぐことが出来ません.その代わりに,彼女たちは「輝きの力」を用いて運命に祈り,「手に入れる事が出来る可能性のある物資が落ちてくる」という運命を引き寄せる事が出来ます.</LegacyFairy_Pawn.description>
+  <LegacyFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</LegacyFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <LegacyFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</LegacyFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <LegacyFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>wing</LegacyFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>
+  <LegacyFairy_Pawn.tools.0.label>歯</LegacyFairy_Pawn.tools.0.label>
+  <LegacyFairy_Pawn.tools.1.label>左拳</LegacyFairy_Pawn.tools.1.label>
+  <LegacyFairy_Pawn.tools.2.label>右拳</LegacyFairy_Pawn.tools.2.label>
+
+
+</LanguageData>

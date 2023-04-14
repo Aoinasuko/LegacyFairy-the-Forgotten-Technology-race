@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 通常のレガシーフェアリー -->
+	<AlienRace.AlienBackstoryDef Name="LgcF_Story_Base" Abstract="True">
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>LgcF_FairyStory_Normal</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 子供 -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Child_N_A</defName>
+		<slot>Childhood</slot>
+		<title>Mischievous</title>
+		<titleShort>Mischievous</titleShort>
+		<baseDesc>[PAWN_nameDef] was a mischievous child. However, she was loved as an unlikable fellow who sometimes used her wiles to solve problems.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Child_N_B</defName>
+		<slot>Childhood</slot>
+		<title>Disciplinarian</title>
+		<titleShort>Disciplinarian</titleShort>
+		<baseDesc>From a young age, [PAWN_nameDef] trained to protect the city in which she lived. She handled various weapons, such as swords and guns, and accumulated knowledge of combat.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Child_N_C</defName>
+		<slot>Childhood</slot>
+		<title>Informed Person</title>
+		<titleShort>Informed</titleShort>
+		<baseDesc>[PAWN_nameDef] loved to learn about different things. As she listened to the stories of the different tribes she traveled with growing up, she amassed knowledge.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Child_N_D</defName>
+		<slot>Childhood</slot>
+		<title>Cult child</title>
+		<titleShort>Cult</titleShort>
+		<baseDesc>[PAWN_nameDef] was born into a family that believed in a cult based on the power of legacy faeries. She trained daily to enhance her ability to manipulate her own destiny.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Child_N_E</defName>
+		<slot>Childhood</slot>
+		<title>Blacksmith's child</title>
+		<titleShort>Blacksmith</titleShort>
+		<baseDesc>[PAWN_nameDef] was born into a family of blacksmiths. Every day she saw the various articles her parents made.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Child_N_F</defName>
+		<slot>Childhood</slot>
+		<title>Farmer's child</title>
+		<titleShort>Farmer</titleShort>
+		<baseDesc>[PAWN_nameDef] was born into a family of farmers. While growing up, she actually helped raise crops and livestock.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Child_N_G</defName>
+		<slot>Childhood</slot>
+		<title>Servant training school students</title>
+		<titleShort>Servant school</titleShort>
+		<baseDesc>[PAWN_nameDef] attended a school that trained servants of various species. She eventually learned what she needed to know to deal with different situations.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 大人 -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Adult_N_A</defName>
+		<slot>Adulthood</slot>
+		<title>LegacyFairy Warrior</title>
+		<titleShort>Warrior</titleShort>
+		<baseDesc>[PAWN_nameDef] entered the battle as a warrior because she wanted to protect someone. She trained every day to protect her friends.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Adult_N_B</defName>
+		<slot>Adulthood</slot>
+		<title>LegacyFairy Architect</title>
+		<titleShort>Architect</titleShort>
+		<baseDesc>[PAWN_nameDef] was recognized for her talents and worked as an architect. Her quick construction helped people in need of a home.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Adult_N_C</defName>
+		<slot>Adulthood</slot>
+		<title>LegacyFairy Miner</title>
+		<titleShort>Miner</titleShort>
+		<baseDesc>[PAWN_nameDef] worked as a miner to dig for ore that was in demand. She would finish the job digging for more ore than others, and her co-workers often asked her for tips and tricks.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Mining</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Adult_N_D</defName>
+		<slot>Adulthood</slot>
+		<title>LegacyFairy Farmer</title>
+		<titleShort>Farmer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a farmer. She found joy in raising vegetables and livestock, and before she knew it, she was earning huge profits.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Adult_N_E</defName>
+		<slot>Adulthood</slot>
+		<title>LegacyFairy Blacksmith</title>
+		<titleShort>Blacksmith</titleShort>
+		<baseDesc>[PAWN_nameDef] was the maker of weapons and artifacts used by the LegacyFaeries. Some people are amazed at her quick blacksmithing.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Adult_N_F</defName>
+		<slot>Adulthood</slot>
+		<title>LegacyFairy Servant</title>
+		<titleShort>Servant</titleShort>
+		<baseDesc>[PAWN_nameDef] served a different tribe as a servant. Through various tasks such as health care, he acquired a wide range of knowledge.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
+		<defName>LgcF_Adult_N_G</defName>
+		<slot>Adulthood</slot>
+		<title>LegacyFairy Spy</title>
+		<titleShort>Spy</titleShort>
+		<baseDesc>[PAWN_nameDef] was a spy because of her quick movements. She was an excellent spy, stealing several pieces of information.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 奴隷のレガシーフェアリー -->
+	<AlienRace.AlienBackstoryDef Name="LgcF_Slave_Base" Abstract="True">
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>LgcF_FairyStory_Slave</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Slave_Base">
+		<defName>LgcF_Child_S_A</defName>
+		<slot>Childhood</slot>
+		<title>Slave Child</title>
+		<titleShort>Slave</titleShort>
+		<baseDesc>[PAWN_nameDef] was a child born of a slave legacy faerie. She was separated from her mother at an early age.</baseDesc>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="LgcF_Slave_Base">
+		<defName>LgcF_Child_S_B</defName>
+		<slot>Childhood</slot>
+		<title>Sold Child</title>
+		<titleShort>Sold</titleShort>
+		<baseDesc>[PAWN_nameDef] was abducted for some reason and sold to a slave trader of a different race. Whenever she made a mistake, the trader would whip her.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>Social</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+</Defs>

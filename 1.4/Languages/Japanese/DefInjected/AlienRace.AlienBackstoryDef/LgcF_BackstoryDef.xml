@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 子供 -->
+
+  <LgcF_Child_N_A.title>いたずら好き</LgcF_Child_N_A.title>
+  <LgcF_Child_N_A.titleShort>いたずら好き</LgcF_Child_N_A.titleShort>
+  <LgcF_Child_N_A.baseDesc>[PAWN_nameDef]はいたずら好きな子供でした.\nしかし彼女は時にその悪知恵を生かして困り事を解決したりと,憎めない奴として愛されていました.</LgcF_Child_N_A.baseDesc>
+
+  <LgcF_Child_N_B.title>鍛錬者</LgcF_Child_N_B.title>
+  <LgcF_Child_N_B.titleShort>鍛錬者</LgcF_Child_N_B.titleShort>
+  <LgcF_Child_N_B.baseDesc>[PAWN_nameDef]は若いときから自身の暮らす街を守りたいと思い,鍛錬を行っていました. 彼女は剣や銃といった様々な武器を扱い,戦闘の知識を蓄えていきました.</LgcF_Child_N_B.baseDesc>
+
+  <LgcF_Child_N_C.title>情報通</LgcF_Child_N_C.title>
+  <LgcF_Child_N_C.titleShort>情報通</LgcF_Child_N_C.titleShort>
+  <LgcF_Child_N_C.baseDesc>[PAWN_nameDef]はいろいろなことを知るのが大好きでした. 彼女は成長の中で旅をしている様々な種族の話を聞き,知識を蓄えていきました.</LgcF_Child_N_C.baseDesc>
+
+  <LgcF_Child_N_D.title>カルト教団の子供</LgcF_Child_N_D.title>
+  <LgcF_Child_N_D.titleShort>カルト教団</LgcF_Child_N_D.titleShort>
+  <LgcF_Child_N_D.baseDesc>[PAWN_nameDef]はレガシーフェアリーが持つ力を元にしたカルトを信仰する家庭の元で生まれました. 彼女は日々自身の運命を操作する力を高める為の訓練を行っていました.</LgcF_Child_N_D.baseDesc>
+
+  <LgcF_Child_N_E.title>鍛冶士の子供</LgcF_Child_N_E.title>
+  <LgcF_Child_N_E.titleShort>鍛冶士</LgcF_Child_N_E.titleShort>
+  <LgcF_Child_N_E.baseDesc>[PAWN_nameDef]は鍛冶士の家庭に生まれました. 彼女は日々,親が作る様々な物品を見ていました.</LgcF_Child_N_E.baseDesc>
+
+  <LgcF_Child_N_F.title>農家の子供</LgcF_Child_N_F.title>
+  <LgcF_Child_N_F.titleShort>農家</LgcF_Child_N_F.titleShort>
+  <LgcF_Child_N_F.baseDesc>[PAWN_nameDef]は農家の家庭に生まれました. 彼女は成長の中で,実際に作物や家畜の育成を手伝いました.</LgcF_Child_N_F.baseDesc>
+
+  <LgcF_Child_N_G.title>使用人育成学校の生徒</LgcF_Child_N_G.title>
+  <LgcF_Child_N_G.titleShort>使用人育成学校</LgcF_Child_N_G.titleShort>
+  <LgcF_Child_N_G.baseDesc>[PAWN_nameDef]は様々な種族の使用人を育成する学校に通っていました. 彼女は最終的に様々な状況に対応する為の知識を学ぶことが出来ました.</LgcF_Child_N_G.baseDesc>
+
+
+  <!-- 大人 -->
+
+  <LgcF_Adult_N_A.title>レガシーフェアリーの戦士</LgcF_Adult_N_A.title>
+  <LgcF_Adult_N_A.titleShort>戦士</LgcF_Adult_N_A.titleShort>
+  <LgcF_Adult_N_A.baseDesc>[PAWN_nameDef]は誰かを守りたい思いから,戦士として戦いに参入していました. 彼女は仲間を守るために,日々訓練を積んでいました.</LgcF_Adult_N_A.baseDesc>
+
+  <LgcF_Adult_N_B.title>レガシーフェアリーの建築家</LgcF_Adult_N_B.title>
+  <LgcF_Adult_N_B.titleShort>建築家</LgcF_Adult_N_B.titleShort>
+  <LgcF_Adult_N_B.baseDesc>[PAWN_nameDef]は自身の才能を認められ,建築家として働いていました. 彼女の素早い建築は,家を求める人々の助けになりました.</LgcF_Adult_N_B.baseDesc>
+
+  <LgcF_Adult_N_C.title>レガシーフェアリーの採掘師</LgcF_Adult_N_C.title>
+  <LgcF_Adult_N_C.titleShort>採掘師</LgcF_Adult_N_C.titleShort>
+  <LgcF_Adult_N_C.baseDesc>[PAWN_nameDef]は需要のある鉱石を掘るための採掘師として働いていました. 彼女は他の人よりも多くの鉱石を掘って仕事を終えるため,職場の同僚から度々コツを教えて欲しいとお願いされていました.</LgcF_Adult_N_C.baseDesc>
+
+  <LgcF_Adult_N_D.title>レガシーフェアリーの農家</LgcF_Adult_N_D.title>
+  <LgcF_Adult_N_D.titleShort>農家</LgcF_Adult_N_D.titleShort>
+  <LgcF_Adult_N_D.baseDesc>[PAWN_nameDef]は農業を営んでいました. 野菜や家畜の育成に楽しさを見出している彼女は,いつの間にか莫大な利益を得ていました.</LgcF_Adult_N_D.baseDesc>
+
+  <LgcF_Adult_N_E.title>レガシーフェアリーの鍛冶師</LgcF_Adult_N_E.title>
+  <LgcF_Adult_N_E.titleShort>鍛冶師</LgcF_Adult_N_E.titleShort>
+  <LgcF_Adult_N_E.baseDesc>[PAWN_nameDef]はレガシーフェアリー達が使う武器や芸術品の製造を行っていました. 彼女の素早い鍛冶に驚く人もいるようです.</LgcF_Adult_N_E.baseDesc>
+
+  <LgcF_Adult_N_F.title>レガシーフェアリーの使用人</LgcF_Adult_N_F.title>
+  <LgcF_Adult_N_F.titleShort>使用人</LgcF_Adult_N_F.titleShort>
+  <LgcF_Adult_N_F.baseDesc>[PAWN_nameDef]は使用人として,異種族に仕えていました. 健康管理等の様々な仕事を通じ,様々な知識を身に着けました.</LgcF_Adult_N_F.baseDesc>
+
+  <LgcF_Adult_N_G.title>レガシーフェアリーのスパイ</LgcF_Adult_N_G.title>
+  <LgcF_Adult_N_G.titleShort>スパイ</LgcF_Adult_N_G.titleShort>
+  <LgcF_Adult_N_G.baseDesc>[PAWN_nameDef]はその素早い動きを買われ,スパイとして活動していました. いくつもの情報を盗む彼女は優秀なスパイでした.</LgcF_Adult_N_G.baseDesc>
+
+
+  <!-- 奴隷のレガシーフェアリー -->
+
+  <LgcF_Child_S_A.title>奴隷の子供</LgcF_Child_S_A.title>
+  <LgcF_Child_S_A.titleShort>奴隷</LgcF_Child_S_A.titleShort>
+  <LgcF_Child_S_A.baseDesc>[PAWN_nameDef]は奴隷のレガシーフェアリーから生まれた子供でした. 彼女は幼い時に,母親と離れ離れになりました.</LgcF_Child_S_A.baseDesc>
+
+  <LgcF_Child_S_B.title>売られた子供</LgcF_Child_S_B.title>
+  <LgcF_Child_S_B.titleShort>売られた子</LgcF_Child_S_B.titleShort>
+  <LgcF_Child_S_B.baseDesc>[PAWN_nameDef]は何らかの理由で拉致され,異種族の奴隷商人に売られました. 彼女が何か失態を犯すたびに,商人に鞭で打たれました.</LgcF_Child_S_B.baseDesc>
+
+
+</LanguageData>

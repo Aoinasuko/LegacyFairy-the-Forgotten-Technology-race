@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LegacyFairy.UI.WP>WP</LegacyFairy.UI.WP>
+
+  <LegacyFairy.UI.disabled_LowWP>Low WP</LegacyFairy.UI.disabled_LowWP>
+  <LegacyFairy.UI.disabled_Down>Dont move</LegacyFairy.UI.disabled_Down>
+  <LegacyFairy.UI.disabled_Cooldown>Cooldown</LegacyFairy.UI.disabled_Cooldown>
+
+  <LegacyFairy.UI.label_BrillianceCharge>Brilliance Charge</LegacyFairy.UI.label_BrillianceCharge>
+  <LegacyFairy.UI.desc_BrillianceCharge>It uses the power of brilliance to greatly reduce the time it takes to fire a shot.\n\n1WP is consumed per second.</LegacyFairy.UI.desc_BrillianceCharge>
+
+  <LegacyFairy.UI.label_PrayertoDestiny>Prayer to Destiny</LegacyFairy.UI.label_PrayertoDestiny>
+  <LegacyFairy.UI.desc_PrayertoDestiny>Drop any item or creature (except for some) in a drop pot near the colony.\nThen, you spend WP according to the silver value of the dropped item.\n\nThe creature does not belong to anywhere and falls in a state of anesthesia.\n\nWhen an item is selected, it will try to summon up to the stack limit if it has extra WP.\n\nCoolDown:10Day</LegacyFairy.UI.desc_PrayertoDestiny>
+
+  <LegacyFairy.Item.LetsWish>Prayer to Destiny!</LegacyFairy.Item.LetsWish>
+  <LegacyFairy.Item.Summon>Summon</LegacyFairy.Item.Summon>
+  <LegacyFairy.Item.DontWish>Prayers cannot be struck empty.</LegacyFairy.Item.DontWish>
+  <LegacyFairy.Item.SoldOut>Oh, that's out of stock.</LegacyFairy.Item.SoldOut>
+  <LegacyFairy.Item.WishEnd>A {0} has fallen on your colony.</LegacyFairy.Item.WishEnd>
+
+</LanguageData>

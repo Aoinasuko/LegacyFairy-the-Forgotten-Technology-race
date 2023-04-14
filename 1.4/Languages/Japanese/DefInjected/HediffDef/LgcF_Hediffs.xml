@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LgcF_BrillianceCharge.label>輝きチャージ</LgcF_BrillianceCharge.label>
+  <LgcF_BrillianceCharge.description>射撃速度が大幅に上昇している状態です.</LgcF_BrillianceCharge.description>
+
+  <LgcF_SoulDepletion.label>魂の消耗</LgcF_SoulDepletion.label>
+  <LgcF_SoulDepletion.description>運が低下して致命傷になりやすくなることで,部位の最大HPが低下している状態です.\n重複すると最大で通常の10%まで低下します.</LgcF_SoulDepletion.description>
+
+  <LgcF_Binding.label>拘束</LgcF_Binding.label>
+  <LgcF_Binding.description>拘束中.</LgcF_Binding.description>
+
+
+</LanguageData>

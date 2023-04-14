@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LgcF_Knowledge.label>知識</LgcF_Knowledge.label>
+  <LgcF_Knowledge.description>レガシーフェアリーの知識を学び,基礎的な情報を獲得します.</LgcF_Knowledge.description>
+
+  <LgcF_Gun.label>運を落とす銃</LgcF_Gun.label>
+  <LgcF_Gun.description>命中時,敵の部位最大HPを減らす超ロングレンジの特別な銃を作成できるようになります.</LgcF_Gun.description>
+
+  <LgcF_Launcher.label>戦術爆撃</LgcF_Launcher.label>
+  <LgcF_Launcher.description>広範囲の敵の部位最大HPを減らす,強力なランチャーを作成できるようになります.</LgcF_Launcher.description>
+
+  <LgcF_Adjuster.label>調整器</LgcF_Adjuster.label>
+  <LgcF_Adjuster.description>かつてレガシーフェアリー達に使われていた人格調整器の作成を行えるようになります.</LgcF_Adjuster.description>
+
+  <LgcF_Costumes.label>衣装</LgcF_Costumes.label>
+  <LgcF_Costumes.description>レガシーフェアリー用の衣装を作成出来るようになります.</LgcF_Costumes.description>
+
+
+</LanguageData>

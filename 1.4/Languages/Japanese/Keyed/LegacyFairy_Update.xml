@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<LegacyFairy.Update.Title>LegacyFairy 更新情報</LegacyFairy.Update.Title>
+
+<LegacyFairy.Update.label>
+2023/03/27(0.1.1.0):
+*一部のグラフィックの修正
+
+*FacialAnimationの定義を別MODに分離
+起動時の負荷軽減の為,FacialAnimation用の画像と定義を別MODに分離しました
+お手数おかけしますが,コレクションからサブスクライブをお願いします
+
+2023/03/05(0.1.0.1):
+*レガシーフェアリー達が役割に応じた衣装を着て登場するようになりました
+
+2023/02/24(0.1.0.0):
+*公開
+
+</LegacyFairy.Update.label>
+
+</LanguageData>
