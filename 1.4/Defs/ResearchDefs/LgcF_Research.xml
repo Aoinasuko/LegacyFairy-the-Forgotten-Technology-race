@@ -69,20 +69,4 @@
 	    <researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef>
-	    <defName>LgcF_Costumes</defName>
-	    <label>Costumes</label>
-	    <description>It will allow you to create LegacyFairy outfits.</description>
-	    <baseCost>500</baseCost>
-	    <techLevel>Industrial</techLevel>
-	    <tab>
-	      <li>LgcF_Research</li>
-	    </tab>
-	    <prerequisites>
-	      <li>LgcF_Knowledge</li>
-	    </prerequisites>
-	    <researchViewX>1</researchViewX>
-	    <researchViewY>5</researchViewY>
-	</ResearchProjectDef>
-	
 </Defs>

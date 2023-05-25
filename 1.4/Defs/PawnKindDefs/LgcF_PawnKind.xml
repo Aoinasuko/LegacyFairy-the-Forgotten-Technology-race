@@ -19,13 +19,13 @@
 		</backstoryFiltersOverride>
 		<styleItemTags>
 			<li>
-				<tag>LegacyFairy</tag>
+				<tag>BEPRace</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
 		<apparelTags>
-			<li>LgcF_Apparel</li>
+			<li>BEP_Apparel</li>
 		</apparelTags>
 		<apparelMoney>0~1000</apparelMoney>
 		<minGenerationAge>5</minGenerationAge>
@@ -56,13 +56,13 @@
 		</backstoryFiltersOverride>
 		<styleItemTags>
 			<li>
-				<tag>LegacyFairy</tag>
+				<tag>BEPRace</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
 		<apparelRequired>
-			<li>LgcF_SimpleArmor</li>
+			<li>BEP_SimpleArmor</li>
 		</apparelRequired>
 		<weaponMoney>1500~5000</weaponMoney>
 		<weaponTags>
@@ -96,7 +96,7 @@
 		</backstoryFiltersOverride>
 		<styleItemTags>
 			<li>
-				<tag>LegacyFairy</tag>
+				<tag>BEPRace</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>

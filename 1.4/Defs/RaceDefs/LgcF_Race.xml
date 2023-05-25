@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+	<AlienRace.ThingDef_AlienRace Tag="BEPRace" ParentName="BasePawn">
 		<defName>LegacyFairy_Pawn</defName>
 		<label>Legacy Fairy</label>
 		<description>LegacyFairy is a basically friendly, fairy-like race about the size of a human child. Legend has it that the "Fairies" were exterminated in the "Forgotten Continent War" long ago, but were somehow revived by a force that gave birth to this race.\n\nThey are extremely weak in body, but have extremely high intelligence, and can move between planets without difficulty by utilizing their own power.\nThey also have an aptitude for service, so friendly legacy faeries may serve other races.\nThey have the "power of brilliance," but like little faeries, they are unable to block attacks.\nInstead, they can use their " power of brilliance" to pray to fate and attract the "possible goods that may fall into their hands".\n\nWhile some factions of the Legacy Faeries are relatively friendly and willing to share their supplies, others are more willing to share theirs. Some factions, because of their former history, are hostile to other faeries and launch raids with their high civilization.</description>
@@ -80,7 +80,7 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 					</bodyTypes>
-					<headOffset>(-0.1, -0.186)</headOffset>
+					<headOffset>(-0.1, -0.26)</headOffset>
 					<customDrawSize>(1, 1)</customDrawSize>
 					<customHeadDrawSize>(1, 1)</customHeadDrawSize>
 					<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
@@ -222,27 +222,29 @@
 					</colorChannels>
 					<bodyAddons>
 						<li>
-							<path>LegacyFairy/Race/Ear/Left/LEar</path>
+							<path>BEPRaceCore/Race/FairyEar/Left/LEar</path>
 							<bodyPart>Ear</bodyPart>
 							<bodyPartLabel>left ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<drawSize>1</drawSize>
 							<colorChannel>skin</colorChannel>
 							<drawnInBed>true</drawnInBed>
+							<alignWithHead>true</alignWithHead>
 							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
-							<path>LegacyFairy/Race/Ear/Right/REar</path>
+							<path>BEPRaceCore/Race/FairyEar/Right/REar</path>
 							<bodyPart>Ear</bodyPart>
 							<bodyPartLabel>right ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<drawSize>1</drawSize>
 							<colorChannel>skin</colorChannel>
 							<drawnInBed>true</drawnInBed>
+							<alignWithHead>true</alignWithHead>
 							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
-							<path>LegacyFairy/Race/Wing/Wing</path>
+							<path>BEPRaceCore/Race/FairyWing/FairyWing</path>
 							<bodyPart>LgcF_Wing</bodyPart>
 							<inFrontOfBody>false</inFrontOfBody>
 							<drawSize>1</drawSize>
@@ -279,21 +281,12 @@
 				</growthAges>
 			</generalSettings>
 			<graphicPaths>
-				<head>
-					<path>LegacyFairy/Race/Head/Average_Normal</path>
-					<headtypeGraphics>
-						<Male_AverageNormal>LegacyFairy/Race/Head/Average_Normal</Male_AverageNormal>
-						<Female_AverageNormal>LegacyFairy/Race/Head/Average_Normal</Female_AverageNormal>
-					</headtypeGraphics>
-				</head>
-				<body>
-					<path>LegacyFairy/Race/Body/</path>
-				</body>
-				<skeleton>LegacyFairy/Race/Bone/Bone</skeleton>
-				<skull>LegacyFairy/Race/HeadBone/HeadBone</skull>
-				<apparel>
-					<!-- Apparel Graphics options go here -->
-				</apparel>
+				<head>BEPRaceCore/Race/Head/Average_Normal</head>
+				<body>BEPRaceCore/Race/Body/Normal/</body>
+				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
+				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<skinShader>Cutout</skinShader>
+				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
 			<relationSettings>
 				<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -310,17 +303,6 @@
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
 				<onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
 				<apparelList>
-					<li>LgcF_SimpleCloth</li>
-					<li>LgcF_BlindfoldandGag</li>
-					<li>LgcF_Blindfold</li>
-					<li>LgcF_SimpleCollor</li>
-					<li>LgcF_SlaveStrap</li>
-					<li>LgcF_SimpleArmor</li>
-					<li>LgcF_MaidBand</li>
-					<li>LgcF_MaidCloth</li>
-					<li>LgcF_NobleCloth</li>
-					<li>LgcF_NobleCape</li>
-					<li>LgcF_SwimSuit</li>
 				</apparelList>
 				<weaponList>
 					<li>LgcF_WishCannon</li>
@@ -381,7 +363,7 @@
 					<value>
 						<hasStyle>true</hasStyle>
 						<styleTagsOverride>
-							<li>LegacyFairy</li>
+							<li>BEPRace</li>
 						</styleTagsOverride>
 					</value>
 				</li>
@@ -576,6 +558,15 @@
 		</comps>
 		<inspectorTabs>
 		</inspectorTabs>
+		<modExtensions>
+			<li Class="BEPRace_Core.BEPRace_Setting">
+				<ignoreDead>false</ignoreDead>
+				<fleeMeat>true</fleeMeat>
+				<ignoreAge>true</ignoreAge>
+				<ignoreFlee>true</ignoreFlee>
+				<slaveWorkSpeed>1.0</slaveWorkSpeed>
+			</li>
+		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 	
 	<LifeStageDef>

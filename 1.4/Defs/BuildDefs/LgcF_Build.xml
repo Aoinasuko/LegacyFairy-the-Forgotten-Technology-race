@@ -43,7 +43,7 @@
 		</statBases>
 		<rotatable>false</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>BEPFT_Building</designationCategory>
+		<designationCategory>BEP_Building</designationCategory>
 		<comps>
 			<li Class="CompProperties_AssignableToPawn">
 				<drawAssignmentOverlay>false</drawAssignmentOverlay>
@@ -101,7 +101,7 @@
 		</statBases>
 		<rotatable>false</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>BEPFT_Building</designationCategory>
+		<designationCategory>BEP_Building</designationCategory>
 		<comps>
 			<li Class="CompProperties_AssignableToPawn">
 				<drawAssignmentOverlay>false</drawAssignmentOverlay>

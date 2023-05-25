@@ -4,6 +4,11 @@
 <LegacyFairy.Update.Title>LegacyFairy 更新情報</LegacyFairy.Update.Title>
 
 <LegacyFairy.Update.label>
+2023/05/25(0.2.0.0):
+*前提MODとしてB.E.P Race Coreが必要になり共通箇所の大幅な削減を行いました
+以前のバージョンを使用している場合髪型や服などの様々なデータが消失しています
+古いバージョンが必要な場合modページからgithubに行くことで更新前のmodをダウンロードすることが出来ます
+
 2023/03/27(0.1.1.0):
 *一部のグラフィックの修正
 
