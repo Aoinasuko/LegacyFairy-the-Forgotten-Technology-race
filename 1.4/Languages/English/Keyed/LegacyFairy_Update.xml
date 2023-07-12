@@ -4,6 +4,9 @@
 <LegacyFairy.Update.Title>LegacyFairy Update</LegacyFairy.Update.Title>
 
 <LegacyFairy.Update.label>
+2023/05/26(0.2.0.1):
+*The skill "Prayer to Fate" shares the same process with the wand of wish, so that the user cannot get what cannot rod of wish.
+
 2023/05/25(0.2.0.0):
 *B.E.P Race Core is required as a prerequisite mod, and common parts have been greatly reduced.
 If you are using an earlier version, various data such as hairstyles and clothes have been lost.

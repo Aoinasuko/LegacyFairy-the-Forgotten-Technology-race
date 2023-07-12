@@ -4,6 +4,9 @@
 <LegacyFairy.Update.Title>LegacyFairy 更新情報</LegacyFairy.Update.Title>
 
 <LegacyFairy.Update.label>
+2023/05/26(0.2.0.1):
+*スキル"運命への祈り"は願いの杖と処理の共有を行い,願いの杖で願えない物は入手できないようにしました
+
 2023/05/25(0.2.0.0):
 *前提MODとしてB.E.P Race Coreが必要になり共通箇所の大幅な削減を行いました
 以前のバージョンを使用している場合髪型や服などの様々なデータが消失しています

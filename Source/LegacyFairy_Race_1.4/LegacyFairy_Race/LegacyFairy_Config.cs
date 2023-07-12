@@ -29,7 +29,7 @@ namespace LegacyFairy_Race
 	public class LegacyFairy_Config : ModSettings
 	{
 		// バージョン
-		public static int ver = 200;
+		public static int ver = 201;
 
 		// アップデートバージョン
 		public static int Updatever = 0;

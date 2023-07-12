@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using BEPRace_Core;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -273,7 +274,7 @@ namespace LegacyFairy_Race
 		{
 			if (thinglist.EnumerableNullOrEmpty())
 			{
-				thinglist = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => (x.race != null && !x.race.IsMechanoid) || (x.race == null && x.thingCategories != null && x.building == null && !x.IsCorpse && x.BaseMarketValue <= Maxval));
+				thinglist = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => (x.race != null && !x.race.IsMechanoid && (x.GetModExtension<Wishable>() == null || x.GetModExtension<Wishable>().canWish)) || (x.race == null && x.thingCategories != null && x.building == null && !x.IsCorpse && x.BaseMarketValue <= Maxval && (x.GetModExtension<Wishable>() == null || x.GetModExtension<Wishable>().canWish)));
 				Messages.Message("LegacyFairy.Item.LetsWish".Translate(), MessageTypeDefOf.PositiveEvent, historical: false);
 			}
 
