@@ -63,7 +63,7 @@
     <settlementTexturePath>LegacyFairy/UI/Faction/icon</settlementTexturePath>
     <xenotypeSet>
       <xenotypeChances>
-        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+        <LgcF_LegacyFairy MayRequire="Ludeon.RimWorld.Biotech">1.0</LgcF_LegacyFairy>
       </xenotypeChances>
     </xenotypeSet>
     <modExtensions>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>LgcF_LegacyFairy</defName>
+    <label>LegacyFairy</label>
+    <description>It is a basic LegacyFairy.</description>
+    <iconPath>BEPRaceCore/UI/Gene/BrilliancePower</iconPath>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>BEP_WishPower</li>
+      <li>BEP_Wish_Survival</li>
+      <li>Immunity_SuperStrong</li>
+      <li>PsychicAbility_Enhanced</li>
+      <li>MeleeDamage_Weak</li>
+      <li>Delicate</li>
+      <li>Pain_Extra</li>
+      <li>Beauty_Beautiful</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

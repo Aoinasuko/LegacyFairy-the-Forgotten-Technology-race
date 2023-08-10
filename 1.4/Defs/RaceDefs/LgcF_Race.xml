@@ -4,7 +4,7 @@
 	<AlienRace.ThingDef_AlienRace Tag="BEPRace" ParentName="BasePawn">
 		<defName>LegacyFairy_Pawn</defName>
 		<label>Legacy Fairy</label>
-		<description>LegacyFairy is a basically friendly, fairy-like race about the size of a human child. Legend has it that the "Fairies" were exterminated in the "Forgotten Continent War" long ago, but were somehow revived by a force that gave birth to this race.\n\nThey are extremely weak in body, but have extremely high intelligence, and can move between planets without difficulty by utilizing their own power.\nThey also have an aptitude for service, so friendly legacy faeries may serve other races.\nThey have the "power of brilliance," but like little faeries, they are unable to block attacks.\nInstead, they can use their " power of brilliance" to pray to fate and attract the "possible goods that may fall into their hands".\n\nWhile some factions of the Legacy Faeries are relatively friendly and willing to share their supplies, others are more willing to share theirs. Some factions, because of their former history, are hostile to other faeries and launch raids with their high civilization.</description>
+		<description>LegacyFairy is a friendly, fairy-like race about the size of a human child. They were discovered during a recent survey of a recently discovered place called "The Forgotten Continent".\n\nResearch on their genes has revealed that the LegacyFairy's genes are almost identical to those of LittleFairy, and that the LegacyFairy's genes are almost identical to those of LittleFairy, It has been suggested that LittleFairy may have been created based on LegacyFairy. However, they have a slightly different power than LittleFairy's "brilliance power", However, they have a slightly different power than the "brilliance power" of the Little Fairies, they have the ability to manipulate destiny by dropping all kinds of materials near themselves. Some researchers call this power "wish power".\n\nThe details of this power are not known, as there are no documents remaining from before the discovery of this power. Perhaps they were once raised as a service tribe, and they are basically submissive to different species. However, some LegacyFairy factions, for unknown reasons, have been known to launch raids on heterogeneous factions. The reason as to why some LegacyFairies do this is still unknown.</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>-1</maleGenderProbability>
@@ -341,6 +341,10 @@
 					<li>Head</li>
 					<li>BodyType</li>
 				</blackEndoCategories>
+				<xenotypeList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">LgcF_LegacyFairy</li>
+				</xenotypeList>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
 			</raceRestriction>
 			<thoughtSettings>
 				<cannotReceiveThoughts>

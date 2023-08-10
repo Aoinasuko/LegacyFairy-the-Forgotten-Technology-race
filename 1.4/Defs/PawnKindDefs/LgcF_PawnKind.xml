@@ -5,7 +5,7 @@
 		<defName>LegacyFairy_Visitor</defName>
 		<label>LegacyFairy Visitor</label>
 		<isFighter>false</isFighter>
-		<combatPower>200</combatPower>
+		<combatPower>50</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
@@ -35,6 +35,12 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>1~3</initialResistanceRange>
 		<defaultFactionType>LgcF_LegacyFairyGroup</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LgcF_LegacyFairy MayRequire="Ludeon.RimWorld.Biotech">999</LgcF_LegacyFairy>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 	<PawnKindDef>
@@ -42,7 +48,7 @@
 		<label>LegacyFairy Fighter</label>
 		<isFighter>true</isFighter>
 		<factionLeader>true</factionLeader>
-		<combatPower>200</combatPower>
+		<combatPower>50</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
@@ -75,6 +81,12 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>1~3</initialResistanceRange>
 		<defaultFactionType>LgcF_LegacyFairyGroup</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LgcF_LegacyFairy MayRequire="Ludeon.RimWorld.Biotech">999</LgcF_LegacyFairy>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 	<PawnKindDef>
@@ -112,6 +124,12 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>1~3</initialResistanceRange>
 		<defaultFactionType>LgcF_LegacyFairyGroup</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LgcF_LegacyFairy MayRequire="Ludeon.RimWorld.Biotech">999</LgcF_LegacyFairy>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 </Defs>
