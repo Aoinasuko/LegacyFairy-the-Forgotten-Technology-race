@@ -279,12 +279,20 @@
 					<li>3</li>
 					<li>5</li>
 				</growthAges>
+				<growthFactorByAge>
+					<points>
+						<li>(0,5)</li>
+						<li>(3,3)</li>
+						<li>(5,1)</li>
+					</points>
+				</growthFactorByAge>
 			</generalSettings>
 			<graphicPaths>
 				<head>BEPRaceCore/Race/Head/Average_Normal</head>
 				<body>BEPRaceCore/Race/Body/Normal/</body>
 				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
 				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<swaddle>BEPRaceCore/Race/Dummy/Dummy</swaddle>
 				<skinShader>Cutout</skinShader>
 				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
@@ -590,6 +598,7 @@
 		<defName>LgcF_Child</defName>
 		<label>LegacyFairy Child</label>
 		<reproductive>false</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
 		<visible>false</visible>
 		<developmentalStage>Child</developmentalStage>
 		<statFactors>
@@ -603,7 +612,7 @@
 		<defName>LgcF_Adult</defName>
 		<label>LegacyFairy Adult</label>
 		<reproductive>true</reproductive>
-		<milkable>true</milkable>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
 		<visible>false</visible>
 		<developmentalStage>Adult</developmentalStage>
 	</LifeStageDef>

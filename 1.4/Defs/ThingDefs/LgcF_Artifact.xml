@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="ResourceBase">
+    <thingClass>ThingWithComps</thingClass>
+    <defName>LgcF_BrokenRodOfWish</defName>
+    <label>Broken Rod of Wish</label>
+    <description>A mysterious staff rarely carried by hostile LegacyFairies. It resembles the "Rod of Wish" that is sometimes unearthed from ruins, and some kind of connection is suspected, but no clues have been found yet.\n\nThe rod still grants wishes when used, though, However, it is wise not to use it if you are smart enough to know that it often causes the opposite of what you wish for.</description>
+    <graphicData>
+      <texPath>LegacyFairy/Thing/Artifact/BrokenRodOfWish</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <techLevel>Archotech</techLevel>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Activate</useLabel>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>LegacyFairy_Race.CompTargetable_Self</compClass>
+      </li>
+      <li>
+        <compClass>LegacyFairy_Race.CompTargetEffect_BWishRod</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectArtifact">
+        <sound>PsychicAnimalPulserCast</sound>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

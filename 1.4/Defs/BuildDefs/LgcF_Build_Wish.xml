@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="FurnitureBase">
+		<defName>LgcF_WishCollector</defName>
+		<label>LgcF Wish Collector</label>
+		<description>This is a machine that stores WP from creatures with "wish power". At regular intervals, the WP of this machine will increase in proportion to the number of race with "wish power" on the map. The WP saved is stored in the savings buffer of the facility that consumes the WP within range.\n\n&lt;color=#FF5555&gt;Many machines that consume WP are powerful, but using large amounts in a short period of time can lead to disaster. The machine will indicate how much is left to be activated.&lt;/color&gt;</description>
+		<graphicData>
+			<texPath>LegacyFairy/Build/WishMachine/Saver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>100</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
+			<MedicineUltratech>3</MedicineUltratech>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.75</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<MarketValue>2500</MarketValue>
+			<WorkToBuild>6000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>35</Mass>
+			<Beauty>0</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<designationCategory>BEP_Building</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>100</pathCost>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<specialDisplayRadius>15.9</specialDisplayRadius>
+		<comps>
+			<li Class="LegacyFairy_Race.CompProperties_WishPower">
+				<isSaving>true</isSaving>
+				<maxPower>200</maxPower>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>LgcF_Investigation</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>LgcF_PillarOfProtection</defName>
+		<label>LgcF Pillar of Protection</label>
+		<description>After receiving WP from the collector, the machine can spend it to deploy a shield that protects against a certain amount of damage to any race.</description>
+		<graphicData>
+			<texPath>LegacyFairy/Build/WishMachine/PillarOfProtection</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>100</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
+			<MedicineUltratech>3</MedicineUltratech>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.75</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<MarketValue>2500</MarketValue>
+			<WorkToBuild>6000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>35</Mass>
+			<Beauty>15</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<designationCategory>BEP_Building</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>100</pathCost>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<specialDisplayRadius>30.9</specialDisplayRadius>
+		<comps>
+			<li Class="LegacyFairy_Race.CompProperties_WishPower">
+				<isSaving>false</isSaving>
+				<maxPower>100</maxPower>
+				<drainPower>5</drainPower>
+				<usePower>5</usePower>
+			</li>
+			<li Class="LegacyFairy_Race.CompProperties_Pillar">
+				<compClass>LegacyFairy_Race.Pillar_Protection</compClass>
+				<canTargetPawn>true</canTargetPawn>
+				<commandLabel>Protection</commandLabel>
+				<commandDesc>You can spend 5 WP to grant a shield that nullifies up to 30 damage from normal attacks. The shield can accumulate up to 90 in total.</commandDesc>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>LgcF_BasicWish</li>
+		</researchPrerequisites>
+		<descriptionHyperlinks>
+			<HediffDef>LgcF_Protection</HediffDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>LgcF_PillarOfGravity</defName>
+		<label>LgcF Pillar of Gravity</label>
+		<description>After receiving WP from the collector, The machine significantly slows down the movement speed of the target organism for some time.</description>
+		<graphicData>
+			<texPath>LegacyFairy/Build/WishMachine/PillarOfGravity</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>100</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
+			<MedicineUltratech>3</MedicineUltratech>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.75</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<MarketValue>2500</MarketValue>
+			<WorkToBuild>6000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>35</Mass>
+			<Beauty>15</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<designationCategory>BEP_Building</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>100</pathCost>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<specialDisplayRadius>30.9</specialDisplayRadius>
+		<comps>
+			<li Class="LegacyFairy_Race.CompProperties_WishPower">
+				<isSaving>false</isSaving>
+				<maxPower>100</maxPower>
+				<drainPower>10</drainPower>
+				<usePower>10</usePower>
+			</li>
+			<li Class="LegacyFairy_Race.CompProperties_Pillar">
+				<compClass>LegacyFairy_Race.Pillar_Gravity</compClass>
+				<canTargetPawn>true</canTargetPawn>
+				<commandLabel>Gravity</commandLabel>
+				<commandDesc>It consumes 10 WP and reduces the movement speed of one organism to 5% for one hour.</commandDesc>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>LgcF_BasicWish</li>
+		</researchPrerequisites>
+		<descriptionHyperlinks>
+			<HediffDef>LgcF_Gravity</HediffDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>LgcF_PillarOfDisposition</defName>
+		<label>LgcF Pillar of Disposition</label>
+		<description>After receiving WP from the collector, This machine produces a sudden explosion at any given location.</description>
+		<graphicData>
+			<texPath>LegacyFairy/Build/WishMachine/PillarOfDisposition</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>100</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
+			<MedicineUltratech>3</MedicineUltratech>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.75</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<MarketValue>2500</MarketValue>
+			<WorkToBuild>6000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>35</Mass>
+			<Beauty>15</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<designationCategory>BEP_Building</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>100</pathCost>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<specialDisplayRadius>30.9</specialDisplayRadius>
+		<comps>
+			<li Class="LegacyFairy_Race.CompProperties_WishPower">
+				<isSaving>false</isSaving>
+				<maxPower>100</maxPower>
+				<drainPower>10</drainPower>
+				<usePower>10</usePower>
+			</li>
+			<li Class="LegacyFairy_Race.CompProperties_Pillar">
+				<compClass>LegacyFairy_Race.Pillar_Disposition</compClass>
+				<canTargetThing>true</canTargetThing>
+				<isRange>true</isRange>
+				<commandLabel>Disposition</commandLabel>
+				<commandDesc>Spend 10 WP to create an explosion at any location.</commandDesc>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>LgcF_BasicWish</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>LgcF_PillarOfCast</defName>
+		<label>LgcF Pillar of Cast</label>
+		<description>After receiving WP from the collector, This machine can convert items in a specified location into any material. The number of items that can be converted depends on the value of the item.</description>
+		<graphicData>
+			<texPath>LegacyFairy/Build/WishMachine/PillarOfCast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>300</Steel>
+			<Plasteel>150</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
+			<MedicineUltratech>5</MedicineUltratech>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.75</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<WorkToBuild>9000</WorkToBuild>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>35</Mass>
+			<Beauty>15</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<designationCategory>BEP_Building</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>100</pathCost>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<specialDisplayRadius>15.9</specialDisplayRadius>
+		<comps>
+			<li Class="LegacyFairy_Race.CompProperties_WishPower">
+				<isSaving>false</isSaving>
+				<maxPower>100</maxPower>
+				<drainPower>20</drainPower>
+				<usePower>20</usePower>
+			</li>
+			<li Class="LegacyFairy_Race.CompProperties_Pillar">
+				<compClass>LegacyFairy_Race.Pillar_Cast</compClass>
+				<canTargetThing>true</canTargetThing>
+				<commandLabel>Cast</commandLabel>
+				<commandDesc>Spend 20 WP to convert an item at a specified location into any material.</commandDesc>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>LgcF_ExtensionWish</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>LgcF_OverWishReplica</defName>
+		<label>LgcF OverWish Replica</label>
+		<description>A structure modeled after a mysterious being worshipped by hostile legacy faeries. According to the information we were barely able to obtain, the floating spheres around it are supposed to reflect the universe in another dimension, but the truth is not clear.\n\nCuriously, the friendly legacy faeries seem to be completely unaware of the existence of the entity that this structure is imitating.\n\nIf you pray to this structure, you will be given three choices of wishes, one of which will be granted.</description>
+		<graphicData>
+			<texPath>LegacyFairy/Build/WishMachine/TOW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>300</Steel>
+			<Plasteel>150</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
+			<MedicineUltratech>5</MedicineUltratech>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.75</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<WorkToBuild>9000</WorkToBuild>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>35</Mass>
+			<Beauty>15</Beauty>
+		</statBases>
+		<size>(3,3)</size>
+		<designationCategory>BEP_Building</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>100</pathCost>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="LegacyFairy_Race.CompProperties_WishPower">
+				<isSaving>false</isSaving>
+				<maxPower>200</maxPower>
+				<drainPower>60</drainPower>
+				<usePower>60</usePower>
+			</li>
+			<li Class="LegacyFairy_Race.CompProperties_Pillar">
+				<compClass>LegacyFairy_Race.Pillar_Wish</compClass>
+				<commandLabel>Over Wish?</commandLabel>
+				<commandDesc>Pay 60 WP and call in 3 random wishes. Choose one of these to grant your wish.</commandDesc>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>LgcF_Clarification</li>
+		</researchPrerequisites>
+	</ThingDef>
+</Defs>

@@ -121,25 +121,38 @@ namespace LegacyFairy_Race
 			Pawn pawn = (Pawn)this.parent;
 			if (parent.IsHashIntervalTick(60))
             {
-				if (!pawn.Faction?.IsPlayer ?? true)
+                HediffDef Hed = HediffDef.Named("LgcF_BrillianceCharge");
+                HediffDef Enemy = HediffDef.Named("LgcF_BrillianceCharge_Enemy");
+
+                if (!pawn.Faction?.IsPlayer ?? true)
                 {
-					if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("LgcF_BrillianceCharge")))
+					if (!pawn.health.hediffSet.HasHediff(Enemy))
 					{
-						pawn.health.AddHediff(HediffDef.Named("LgcF_BrillianceCharge"));
+						pawn.health.AddHediff(Enemy);
 					}
-					return;
+                    if (pawn.health.hediffSet.HasHediff(Hed))
+                    {
+                        pawn.health.RemoveHediff(pawn.health.hediffSet.GetFirstHediffOfDef(Hed));
+                    }
+                    return;
+                } else
+				{
+                    if (pawn.health.hediffSet.HasHediff(Enemy))
+                    {
+                        pawn.health.RemoveHediff(pawn.health.hediffSet.GetFirstHediffOfDef(Enemy));
+                    }
                 }
-				if (pawn.health.hediffSet.HasHediff(HediffDef.Named("LgcF_BrillianceCharge")))
+				if (pawn.health.hediffSet.HasHediff(Hed))
 				{
 					if (pawn.Downed)
 					{
-						pawn.health.RemoveHediff(pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("LgcF_BrillianceCharge")));
+						pawn.health.RemoveHediff(pawn.health.hediffSet.GetFirstHediffOfDef(Hed));
 					} else
                     {
 						WPUse(1);
 						if (NowWP <= 0)
                         {
-							pawn.health.RemoveHediff(pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("LgcF_BrillianceCharge")));
+							pawn.health.RemoveHediff(pawn.health.hediffSet.GetFirstHediffOfDef(Hed));
 						}
 					}
 				}

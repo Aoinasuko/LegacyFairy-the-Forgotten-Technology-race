@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LgcF_DropSilver.label>シルバー召喚</LgcF_DropSilver.label>
+  <LgcF_DropSilver.description>あなたのコロニーに{0}が降ってきました.</LgcF_DropSilver.description>
+
+  <LgcF_DropSteel.label>鉱石召喚</LgcF_DropSteel.label>
+  <LgcF_DropSteel.description>あなたのコロニーに{0}が降ってきました.</LgcF_DropSteel.description>
+
+  <LgcF_DropUranium.label>貴重な鉱石召喚</LgcF_DropUranium.label>
+  <LgcF_DropUranium.description>あなたのコロニーに{0}が降ってきました.</LgcF_DropUranium.description>
+
+  <LgcF_DropComponent.label>コンポーネント召喚</LgcF_DropComponent.label>
+  <LgcF_DropComponent.description>あなたのコロニーに{0}が降ってきました.</LgcF_DropComponent.description>
+
+  <LgcF_DropResurrect.label>リザレクトシーラム召喚</LgcF_DropResurrect.label>
+  <LgcF_DropResurrect.description>あなたのコロニーに{0}が降ってきました.</LgcF_DropResurrect.description>
+
+  <LgcF_DropArtifact.label>アーティファクト召喚</LgcF_DropArtifact.label>
+  <LgcF_DropArtifact.description>あなたのコロニーに{0}が降ってきました.</LgcF_DropArtifact.description>
+
+  <LgcF_DropItem.label>漂着物召喚</LgcF_DropItem.label>
+  <LgcF_DropItem.description>漂着物ビーコンの信号を発信した.</LgcF_DropItem.description>
+
+  <LgcF_DropManyItem.label>漂着物大量召喚</LgcF_DropManyItem.label>
+  <LgcF_DropManyItem.description>漂着物ビーコンの大規模な信号を発信した.</LgcF_DropManyItem.description>
+
+  <LgcF_SummonAnimal.label>家畜召喚</LgcF_SummonAnimal.label>
+  <LgcF_SummonAnimal.description>どこかで動物の鳴き声がした.</LgcF_SummonAnimal.description>
+
+  <LgcF_SummonThrumbo.label>スランボ召喚</LgcF_SummonThrumbo.label>
+  <LgcF_SummonThrumbo.description>どこかで動物の鳴き声がした.</LgcF_SummonThrumbo.description>
+
+  <LgcF_Meteor.label>メテオライトの雨</LgcF_Meteor.label>
+  <LgcF_Meteor.description>伏せろぉー！</LgcF_Meteor.description>
+
+  <LgcF_ShipChunkDrop.label>残骸の雨</LgcF_ShipChunkDrop.label>
+  <LgcF_ShipChunkDrop.description>伏せろぉー！</LgcF_ShipChunkDrop.description>
+
+  <LgcF_RefugeePodCrash.label>突然の脱出者</LgcF_RefugeePodCrash.label>
+  <LgcF_RefugeePodCrash.description>救助用のポッドへ通信を送った.</LgcF_RefugeePodCrash.description>
+
+  <LgcF_Trader.label>突然の来訪者</LgcF_Trader.label>
+  <LgcF_Trader.description>偶然にもトレーダーが来たようだ.</LgcF_Trader.description>
+
+  <LgcF_ALLHeal.label>入植者全員の治癒</LgcF_ALLHeal.label>
+  <LgcF_ALLHeal.description>治癒用のナノマシンが散布された.</LgcF_ALLHeal.description>
+
+  <LgcF_EnemyRandomDeath.label>敵誰か1人即死</LgcF_EnemyRandomDeath.label>
+  <LgcF_EnemyRandomDeath.description>{0}に死の運命が訪れた.</LgcF_EnemyRandomDeath.description>
+
+  <LgcF_EnemyRandomDeathMany.label>敵をランダムで即死</LgcF_EnemyRandomDeathMany.label>
+  <LgcF_EnemyRandomDeathMany.description>敵にランダムで死の運命が訪れた.</LgcF_EnemyRandomDeathMany.description>
+
+  <LgcF_EndResearch.label>現在の研究を完了させる</LgcF_EndResearch.label>
+  <LgcF_EndResearch.description>研究卓に大量の資料が降ってきた.</LgcF_EndResearch.description>
+
+  <LgcF_EndResearchMany.label>ランダムで研究を3つ完了させる</LgcF_EndResearchMany.label>
+  <LgcF_EndResearchMany.description>研究卓に大量の資料が降ってきた.</LgcF_EndResearchMany.description>
+
+  <LgcF_PlantGrowth.label>植物を成長させる</LgcF_PlantGrowth.label>
+  <LgcF_PlantGrowth.description>周囲の植物が急成長した.</LgcF_PlantGrowth.description>
+
+  <LgcF_RandomBerserk.label>入植者がランダムで狂暴化</LgcF_RandomBerserk.label>
+  <LgcF_RandomBerserk.description>{0}に狂暴化の波動が襲った.</LgcF_RandomBerserk.description>
+
+  <LgcF_SickRush.label>入植者に病気の嵐</LgcF_SickRush.label>
+  <LgcF_SickRush.description>病気の嵐がコロニーを襲った.</LgcF_SickRush.description>
+
+  <LgcF_RandomDeath.label>誰か1人即死</LgcF_RandomDeath.label>
+  <LgcF_RandomDeath.description>{0}に死の運命が訪れた.</LgcF_RandomDeath.description>
+
+  <LgcF_RandomDeath.label>誰か1人即死</LgcF_RandomDeath.label>
+  <LgcF_RandomDeath.description>{0}に死の運命が訪れた.</LgcF_RandomDeath.description>
+
+  <LgcF_PlantKill.label>植物を枯れさせる</LgcF_PlantKill.label>
+  <LgcF_PlantKill.description>周囲の植物がすべて枯れた.</LgcF_PlantKill.description>
+
+  <LgcF_RaidRush.label>襲撃招集</LgcF_RaidRush.label>
+  <LgcF_RaidRush.description>襲撃用の信号を発信した.</LgcF_RaidRush.description>
+
+</LanguageData>

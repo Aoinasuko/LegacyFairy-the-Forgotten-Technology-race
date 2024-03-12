@@ -6,67 +6,127 @@
 		<label>LegacyFairy</label>
 	</ResearchTabDef>
 	
+	<!-- 基礎研究 -->
+	
 	<ResearchProjectDef>
-	    <defName>LgcF_Knowledge</defName>
-	    <label>Knowledge</label>
-	    <description>You will learn about LegacyFairy.</description>
-	    <baseCost>1000</baseCost>
-	    <techLevel>Industrial</techLevel>
-	    <tab>
-	      <li>LgcF_Research</li>
-	    </tab>
-	    <researchViewX>0</researchViewX>
-	    <researchViewY>4</researchViewY>
+		<defName>LgcF_Knowledge</defName>
+		<label>Knowledge</label>
+		<description>You will learn about LegacyFairy.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>
+			<li>LgcF_Research</li>
+		</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
-	    <defName>LgcF_Gun</defName>
-	    <label>Gun Down on one's Luck</label>
-	    <description>Add a long-range gun that reduces the enemy's part durability.</description>
-	    <baseCost>1000</baseCost>
-	    <techLevel>Industrial</techLevel>
-	    <tab>
-	      <li>LgcF_Research</li>
-	    </tab>
-	    <prerequisites>
-	      <li>Gunsmithing</li>
-	      <li>LgcF_Knowledge</li>
-	    </prerequisites>
-	    <researchViewX>1</researchViewX>
-	    <researchViewY>3</researchViewY>
+		<defName>LgcF_Investigation</defName>
+		<label>Investigation</label>
+		<description>Try to learn more about the technology that LegacyFairy has to offer.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>
+			<li>LgcF_Research</li>
+		</tab>
+		<prerequisites>
+			<li>LgcF_Knowledge</li>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
-	    <defName>LgcF_Launcher</defName>
-	    <label>Tactical Bombing Launcher</label>
-	    <description>It will be possible to create a launcher that produces a powerful explosion.</description>
-	    <baseCost>2000</baseCost>
-	    <techLevel>Industrial</techLevel>
-	    <tab>
-	      <li>LgcF_Research</li>
-	    </tab>
-	    <prerequisites>
-	      <li>MicroelectronicsBasics</li>
-	      <li>LgcF_Gun</li>
-	    </prerequisites>
-	    <researchViewX>2</researchViewX>
-	    <researchViewY>3</researchViewY>
+		<defName>LgcF_Clarification</defName>
+		<label>Clarification</label>
+		<description>Attempts to provide a complete picture of the technology that LegacyFairy possesses.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Archotech</techLevel>
+		<tab>
+			<li>LgcF_Research</li>
+		</tab>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>LgcF_Investigation</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<!-- 建築物 -->
+	
+	<ResearchProjectDef>
+		<defName>LgcF_BasicWish</defName>
+		<label>BasicWish</label>
+		<description>It will be possible to create machines that can activate effects with the WP distributed from the savings machine.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LgcF_Investigation</li>
+		</prerequisites>
+		<tab>
+			<li>LgcF_Research</li>
+		</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
-	    <defName>LgcF_Adjuster</defName>
-	    <label>Adjuster</label>
-	    <description>It will be possible to create a personality regulator that was once used for LegacyFairy.</description>
-	    <baseCost>1000</baseCost>
-	    <techLevel>Industrial</techLevel>
-	    <tab>
-	      <li>LgcF_Research</li>
-	    </tab>
-	    <prerequisites>
-	      <li>LgcF_Knowledge</li>
-	    </prerequisites>
-	    <researchViewX>1</researchViewX>
-	    <researchViewY>4</researchViewY>
+		<defName>LgcF_ExtensionWish</defName>
+		<label>ExtensionWish</label>
+		<description>It allows us to create even more powerful machines.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Archotech</techLevel>
+		<prerequisites>
+			<li>LgcF_BasicWish</li>
+			<li>LgcF_Clarification</li>
+		</prerequisites>
+		<tab>
+			<li>LgcF_Research</li>
+		</tab>
+		<researchViewX>5</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+	<!-- 武器 -->
+	
+	<ResearchProjectDef>
+		<defName>LgcF_Gun</defName>
+		<label>Gun Down on one's Luck</label>
+		<description>Add a long-range gun that reduces the enemy's part durability.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>
+			<li>LgcF_Research</li>
+		</tab>
+		<prerequisites>
+			<li>Gunsmithing</li>
+			<li>LgcF_Knowledge</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>LgcF_Launcher</defName>
+		<label>Tactical Bombing Launcher</label>
+		<description>It will be possible to create a launcher that produces a powerful explosion.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>
+			<li>LgcF_Research</li>
+		</tab>
+		<prerequisites>
+			<li>LgcF_Gun</li>
+			<li>LgcF_Investigation</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 	
 </Defs>

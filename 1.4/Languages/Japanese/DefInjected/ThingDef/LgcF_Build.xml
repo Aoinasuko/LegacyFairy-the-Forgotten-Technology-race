@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LgcF_PersonalityRegulator.label>LgcF 人格調整器</LgcF_PersonalityRegulator.label>
-  <LgcF_PersonalityRegulator.description>この機械に囚人を寝かせることで一時的に拘束されます. 1日間寝かせると,その人は洗脳をされてコロニーの奴隷になります.\n\n整理した情報によると,かつて人間に作られたレガシーフェアリー達はこの機械に入れられ使用人として丁度いい人格に調整されていたようです.</LgcF_PersonalityRegulator.description>
+  <LgcF_PersonalityRegulator.label>LgcF 人格調整器(廃止)</LgcF_PersonalityRegulator.label>
+  <LgcF_PersonalityRegulator.description>このアイテムは廃止されました. 次回のアップデートで削除されます.</LgcF_PersonalityRegulator.description>
 
-  <LgcF_ExecutionBed.label>LgcF 処刑ベッド</LgcF_ExecutionBed.label>
-  <LgcF_ExecutionBed.description>この機械に囚人を寝かせることで一時的に拘束されます. 1時間後,自動で処刑装置が作動し,首が切断されます.\n\nレガシーフェアリー達が人格調整器を改造し,その結果出来たのが手を汚さずに処刑が行えるこの機械です.</LgcF_ExecutionBed.description>
+  <LgcF_ExecutionBed.label>LgcF 人格調整器(廃止)</LgcF_ExecutionBed.label>
+  <LgcF_ExecutionBed.description>このアイテムは廃止されました. 次回のアップデートで削除されます.</LgcF_ExecutionBed.description>
 
 
 </LanguageData>

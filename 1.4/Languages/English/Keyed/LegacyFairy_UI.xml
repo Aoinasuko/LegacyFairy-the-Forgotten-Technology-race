@@ -19,4 +19,11 @@
   <LegacyFairy.Item.SoldOut>Oh, that's out of stock.</LegacyFairy.Item.SoldOut>
   <LegacyFairy.Item.WishEnd>A {0} has fallen on your colony.</LegacyFairy.Item.WishEnd>
 
+  <LegacyFairy.UI.WPBad>Residual WP</LegacyFairy.UI.WPBad>
+  <LegacyFairy.UI.WPBadDesc>When you use WP facilities, WP with negative effects will be accumulated in the surrounding area for a while. Consuming a lot of WP in a short period of time will attract bad events.</LegacyFairy.UI.WPBadDesc>
+
+  <LegacyFairy.UI.CantCast>You must have at least a total of {0} silver in order to perform the conversion.</LegacyFairy.UI.CantCast>
+
+  <LegacyFairy.UI.Wish>What do you want?</LegacyFairy.UI.Wish>
+
 </LanguageData>

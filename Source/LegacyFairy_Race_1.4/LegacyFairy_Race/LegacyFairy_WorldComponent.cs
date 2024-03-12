@@ -1,4 +1,5 @@
-﻿using RimWorld.Planet;
+﻿using RimWorld;
+using RimWorld.Planet;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,18 +7,35 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
+using Verse.Noise;
 
 namespace LegacyFairy_Race
 {
 	public class LegacyFairy_WorldComponent : WorldComponent
 	{
 
-		public LegacyFairy_WorldComponent(World world)
+		public int UsedWP = 0;
+
+        public LegacyFairy_WorldComponent(World world)
 			: base(world)
 		{
 		}
 
-		public override void WorldComponentTick()
+		public void AddWP(int value, Map map)
+		{
+			UsedWP += value;
+            // もし100以上になったら即時悪い効果をランダムで発動する
+            if (UsedWP >= 100)
+			{
+				List<IncidentDef> list = DefDatabase<IncidentDef>.AllDefsListForReading.Where(x => x.category == IncidentCategoryDefOf.ThreatBig && x.targetTags.Contains(IncidentTargetTagDefOf.Map_PlayerHome)).ToList();
+                IncidentDef incident = list.RandomElement();
+                IncidentParms parms = StorytellerUtility.DefaultParmsNow(incident.category, map);
+                incident.Worker.TryExecute(parms);
+                UsedWP = 0;
+            }
+        }
+
+        public override void WorldComponentTick()
 		{
 			int ticks = Find.TickManager.TicksAbs;
 			if (ticks % 600 == 0)
@@ -31,12 +49,20 @@ namespace LegacyFairy_Race
 					LoadedModManager.GetMod<LegacyFairy_Settings>().WriteSettings();
 				}
 			}
+			if (ticks % 60000 == 0)
+			{
+				if (UsedWP > 0)
+				{
+					UsedWP = Math.Max(0, UsedWP - 10);
+                }
+			}
 		}
 
 		public override void ExposeData()
 		{
 			base.ExposeData();
-		}
+            Scribe_Values.Look(ref UsedWP, "UsedWP");
+        }
 	}
 
 	public class Dialog_Update : Window

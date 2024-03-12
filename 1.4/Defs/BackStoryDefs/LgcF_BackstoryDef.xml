@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!-- 通常のレガシーフェアリー -->
 	<AlienRace.AlienBackstoryDef Name="LgcF_Story_Base" Abstract="True">
 		<bodyTypeMale>Female</bodyTypeMale>
@@ -11,7 +10,6 @@
 	</AlienRace.AlienBackstoryDef>
 	
 	<!-- 子供 -->
-	
 	<AlienRace.AlienBackstoryDef ParentName="LgcF_Story_Base">
 		<defName>LgcF_Child_N_A</defName>
 		<slot>Childhood</slot>
@@ -305,5 +303,4 @@
 		</skillGains>
 		<workDisables>Social</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	
 </Defs>

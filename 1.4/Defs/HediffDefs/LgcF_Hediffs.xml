@@ -18,6 +18,22 @@
   </HediffDef>
   
   <HediffDef>
+    <defName>LgcF_BrillianceCharge_Enemy</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Brilliance Charge</label>
+    <description>The shooting speed is greatly increased.</description>
+    <stages>
+      <li>
+        <statFactors>
+          <AimingDelayFactor>0.2</AimingDelayFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
     <defName>LgcF_SoulDepletion</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
@@ -59,6 +75,55 @@
     <comps>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>300</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <!-- 守護の願い -->
+  <HediffDef>
+    <defName>LgcF_Protection</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.2, 0.8, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Protection Wish</label>
+    <initialSeverity>30.0</initialSeverity>
+    <maxSeverity>90.0</maxSeverity>
+    <description>It is a state in which a little wish power is granted and a certain amount of damage from normal attacks is nullified.</description>
+    <comps>
+      <li>
+        <compClass>LegacyFairy_Race.HediffComp_Protection</compClass>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+            <IncomingDamageFactor>0.0</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- 重力の願い -->
+  <HediffDef>
+    <defName>LgcF_Gravity</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.2, 0.8, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Gravity Wish</label>
+    <description>The power of the wish has greatly reduced the speed of movement.</description>
+    <stages>
+      <li>
+        <statFactors>
+            <MoveSpeed>0.05</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>2500</min>
+          <max>2500</max>
+        </disappearsAfterTicks>
       </li>
     </comps>
   </HediffDef>

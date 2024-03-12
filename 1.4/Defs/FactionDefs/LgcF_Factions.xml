@@ -49,6 +49,7 @@
         <commonality>100</commonality>
         <options>
           <LegacyFairy_Fighter>10</LegacyFairy_Fighter>
+          <LegacyFairy_Leader>1</LegacyFairy_Leader>
         </options>
       </li>
       <li>
@@ -56,6 +57,7 @@
         <commonality>100</commonality>
         <options>
           <LegacyFairy_Fighter>10</LegacyFairy_Fighter>
+          <LegacyFairy_Leader>1</LegacyFairy_Leader>
         </options>
       </li>
     </pawnGroupMakers>
@@ -67,7 +69,7 @@
       </xenotypeChances>
     </xenotypeSet>
     <modExtensions>
-      <li Class="BEPRace_Core.BEPRace_FactionSetting">
+      <li Class="BEPRace_Core.BEPRace_FactionSetting" MayRequire="Ludeon.RimWorld.Ideology">
       </li>
     </modExtensions>
   </FactionDef>

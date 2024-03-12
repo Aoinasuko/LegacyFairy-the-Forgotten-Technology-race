@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LgcF_WishCollector.label>LgcF 願望収集機</LgcF_WishCollector.label>
+  <LgcF_WishCollector.description>この機械は付近にいる『願いの力』を持った種族達の力を微量に収集し,WPとして貯蓄することができます.この機械に貯蓄されたWPは範囲内の各種WPを消費する施設に分配され,分配されたWPを施設で消費することで強力な効果を発揮します.\n\n&lt;color=#FF5555&gt;ただし,WPを施設で短時間の間に消費しすぎると悪いイベントを呼び寄せるため注意が必要です.&lt;/color&gt;</LgcF_WishCollector.description>
+
+  <LgcF_PillarOfProtection.label>LgcF 守護の柱</LgcF_PillarOfProtection.label>
+  <LgcF_PillarOfProtection.description>貯蓄したWPを消費して,任意の生物にバリアを張ることができる施設です. バリアは通常の攻撃によるダメージを30まで防ぎます,重複させることで最大90まで貯めることが出来ます.\n\n&lt;color=#B1FBFF&gt;「ちょっとパッチを当てれば…ほら,痛くなくなったでしょ？」\n～あるレガシーフェアリーの一言～&lt;/color&gt;</LgcF_PillarOfProtection.description>
+  <LgcF_PillarOfProtection.comps.Pillar_Protection.commandLabel>守護</LgcF_PillarOfProtection.comps.Pillar_Protection.commandLabel>
+  <LgcF_PillarOfProtection.comps.Pillar_Protection.commandDesc>WPを5消費して,任意の生物にバリアを張ります. バリアは通常の攻撃によるダメージを30まで防ぎます,重複させることで最大90まで貯めることが出来ます.</LgcF_PillarOfProtection.comps.Pillar_Protection.commandDesc>
+
+  <LgcF_PillarOfGravity.label>LgcF 重力の柱</LgcF_PillarOfGravity.label>
+  <LgcF_PillarOfGravity.description>貯蓄したWPを消費して,任意の生物を一定時間の間鈍足にすることができる施設です.\n\n&lt;color=#B1FBFF&gt;「脳の処理速度をループで遅くさせてもらうわ」\n～あるレガシーフェアリーの一言～&lt;/color&gt;</LgcF_PillarOfGravity.description>
+  <LgcF_PillarOfGravity.comps.Pillar_Gravity.commandLabel>重力</LgcF_PillarOfGravity.comps.Pillar_Gravity.commandLabel>
+  <LgcF_PillarOfGravity.comps.Pillar_Gravity.commandDesc>WPを10消費して,任意の生物の移動速度をしばらくの間5%に低下させます.</LgcF_PillarOfGravity.comps.Pillar_Gravity.commandDesc>
+
+  <LgcF_PillarOfDisposition.label>LgcF 破壊の柱</LgcF_PillarOfDisposition.label>
+  <LgcF_PillarOfDisposition.description>貯蓄したWPを消費して,任意の箇所に爆発を起こすことが出来る施設です.\n\n&lt;color=#B1FBFF&gt;「普通じゃありえない場所で爆発が起きると敵は確実に混乱するでしょうね」\n～あるレガシーフェアリーの一言～&lt;/color&gt;</LgcF_PillarOfDisposition.description>
+  <LgcF_PillarOfDisposition.comps.Pillar_Disposition.commandLabel>破壊</LgcF_PillarOfDisposition.comps.Pillar_Disposition.commandLabel>
+  <LgcF_PillarOfDisposition.comps.Pillar_Disposition.commandDesc>WPを10消費して,任意の場所に爆発を起こします.</LgcF_PillarOfDisposition.comps.Pillar_Disposition.commandDesc>
+
+  <LgcF_PillarOfCast.label>LgcF 可変の柱</LgcF_PillarOfCast.label>
+  <LgcF_PillarOfCast.description>貯蓄したWPを消費して,任意のアイテムを好きな資源に変換できる施設です.\n\n&lt;color=#B1FBFF&gt;「キャストできるかしら？」\n～あるレガシーフェアリーの一言～&lt;/color&gt;</LgcF_PillarOfCast.description>
+  <LgcF_PillarOfCast.comps.Pillar_Cast.commandLabel>可変</LgcF_PillarOfCast.comps.Pillar_Cast.commandLabel>
+  <LgcF_PillarOfCast.comps.Pillar_Cast.commandDesc>WPを20消費して,任意のアイテムを選択した資源にシルバーの価値基準で変換します.</LgcF_PillarOfCast.comps.Pillar_Cast.commandDesc>
+
+  <LgcF_OverWishReplica.label>LgcF オーバーウィッシュ レプリカ</LgcF_OverWishReplica.label>
+  <LgcF_OverWishReplica.description>敵対的なレガシーフェアリーが崇拝している謎の存在を模した建造物. かろうじて聞き出せた情報によれば,周囲に浮かぶ球体は別次元の宇宙を映しているらしいが真相は定かではない.\n\n不思議なことに,友好的なレガシーフェアリー達はこの建造物が模している存在について全く身に覚えがないらしい.\n\nWPを貯蓄させたこの建造物に祈ることで3つの願いの選択肢が与えられ,その中から望んだ1つの願いを叶えてくれます.\n\n&lt;color=#B1FBFF&gt;「あなたは私達を産み出した方の命令を忘れてしまっているようね...」\n～あるレガシーフェアリーの一言～&lt;/color&gt;</LgcF_OverWishReplica.description>
+  <LgcF_OverWishReplica.comps.Pillar_Wish.commandLabel>Over Wish?</LgcF_OverWishReplica.comps.Pillar_Wish.commandLabel>
+  <LgcF_OverWishReplica.comps.Pillar_Wish.commandDesc>WPを60消費して,3つの選択肢の中から1つの願いを叶えます.</LgcF_OverWishReplica.comps.Pillar_Wish.commandDesc>
+
+</LanguageData>

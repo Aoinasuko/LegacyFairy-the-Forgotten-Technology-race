@@ -4,14 +4,22 @@
   <LgcF_Knowledge.label>知識</LgcF_Knowledge.label>
   <LgcF_Knowledge.description>レガシーフェアリーの知識を学び,基礎的な情報を獲得します.</LgcF_Knowledge.description>
 
+  <LgcF_Investigation.label>調査</LgcF_Investigation.label>
+  <LgcF_Investigation.description>レガシーフェアリーの知識をさらに学び,彼女たちの『願いの力』を貯蔵できるようになります.</LgcF_Investigation.description>
+
+  <LgcF_Clarification.label>理解</LgcF_Clarification.label>
+  <LgcF_Clarification.description>レガシーフェアリー達の知識をさらに学び,彼女達が崇拝する存在を模した像を作成できるようになります.</LgcF_Clarification.description>
+
+  <LgcF_BasicWish.label>基礎的な願い</LgcF_BasicWish.label>
+  <LgcF_BasicWish.description>WPを消費して有益な効果を発揮する『柱』を作成できるようになります.</LgcF_BasicWish.description>
+
+  <LgcF_ExtensionWish.label>更なる願い</LgcF_ExtensionWish.label>
+  <LgcF_ExtensionWish.description>さらに強力な『柱』を作成できるようになります.</LgcF_ExtensionWish.description>
+
   <LgcF_Gun.label>運を落とす銃</LgcF_Gun.label>
   <LgcF_Gun.description>命中時,敵の部位最大HPを減らす超ロングレンジの特別な銃を作成できるようになります.</LgcF_Gun.description>
 
   <LgcF_Launcher.label>戦術爆撃</LgcF_Launcher.label>
   <LgcF_Launcher.description>広範囲の敵の部位最大HPを減らす,強力なランチャーを作成できるようになります.</LgcF_Launcher.description>
-
-  <LgcF_Adjuster.label>調整器</LgcF_Adjuster.label>
-  <LgcF_Adjuster.description>かつてレガシーフェアリー達に使われていた人格調整器の作成を行えるようになります.</LgcF_Adjuster.description>
-
 
 </LanguageData>

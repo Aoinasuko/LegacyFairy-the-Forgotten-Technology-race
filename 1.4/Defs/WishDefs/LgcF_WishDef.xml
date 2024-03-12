@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<!-- 001:シルバーを降らせる -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_DropSilver</defName>
+		<label>Drop Silver</label>
+		<description>{0} has fallen on your colony.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_SummonThing">
+			<thingList>
+				<li>Silver</li>
+			</thingList>
+			<minStack>1000</minStack>
+			<maxStack>5000</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 002:有用な鉱石を降らせる -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_DropSteel</defName>
+		<label>Drop Ore</label>
+		<description>{0} has fallen on your colony.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_SummonThing">
+			<thingList>
+				<li>Gold</li>
+				<li>Steel</li>
+				<li>Jade</li>
+			</thingList>
+			<minStack>500</minStack>
+			<maxStack>1000</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 003:有用な鉱石を降らせる(上位) -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_DropUranium</defName>
+		<label>Drop Rare Ore</label>
+		<description>{0} has fallen on your colony.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_SummonThing">
+			<thingList>
+				<li>Uranium</li>
+				<li>Plasteel</li>
+			</thingList>
+			<minStack>300</minStack>
+			<maxStack>500</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 004:コンポーネント -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_DropComponent</defName>
+		<label>Drop Component</label>
+		<description>{0} has fallen on your colony.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_SummonThing">
+			<thingList>
+				<li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+			</thingList>
+			<minStack>10</minStack>
+			<maxStack>30</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 005:リザレクトシーラム -->
+	<!-- マップ内に入植者の死体があると確率5倍 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_DropResurrect</defName>
+		<label>Drop Serum Resurrector</label>
+		<description>{0} has fallen on your colony.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_SummonThing">
+			<thingList>
+				<li>MechSerumResurrector</li>
+			</thingList>
+			<minStack>1</minStack>
+			<maxStack>1</maxStack>
+		</WishCalc>
+		<CountUP>4</CountUP>
+		<WishCountUP Class="LegacyFairy_Race.WishCount_HasDeadColonist">
+		</WishCountUP>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 006:敵に不利を及ぼす系アーティファクト出現 -->
+	<!-- マップ内に入植者の派閥に敵対している生物が10人以上いると確率3倍 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_DropArtifact</defName>
+		<label>Drop Artifact</label>
+		<description>{0} has fallen on your colony.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_SummonThing">
+			<thingList>
+				<li>PsychicAnimalPulser</li>
+			</thingList>
+			<minStack>1</minStack>
+			<maxStack>1</maxStack>
+		</WishCalc>
+		<CountUP>2</CountUP>
+		<WishCountUP Class="LegacyFairy_Race.WishCount_ManyEnemy">
+		</WishCountUP>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 007:漂着物最大3回発生 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_DropItem</defName>
+		<label>Drop Flotsam</label>
+		<description>The beacon signal was sent out.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EventCalc">
+			<incident>ResourcePodCrash</incident>
+			<minStack>1</minStack>
+			<maxStack>3</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 008:漂着物大量発生 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_DropManyItem</defName>
+		<label>Drop Many Flotsam</label>
+		<description>The many beacon signal was sent out.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EventCalc">
+			<incident>ResourcePodCrash</incident>
+			<minStack>5</minStack>
+			<maxStack>8</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 009:家畜召喚 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_SummonAnimal</defName>
+		<label>Summon Animal</label>
+		<description>Heard animal noises.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EventCalc">
+			<incident>FarmAnimalsWanderIn</incident>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 010:スランボ召喚 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_SummonThrumbo</defName>
+		<label>Summon Thrumbo</label>
+		<description>Heard animal noises.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EventCalc">
+			<incident>ThrumboPasses</incident>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 011:メテオライトの雨 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_Meteor</defName>
+		<label>Drop Many Meteor</label>
+		<description>Get down!</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EventCalc">
+			<incident>MeteoriteImpact</incident>
+			<minStack>10</minStack>
+			<maxStack>15</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 012:残骸の雨 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_ShipChunkDrop</defName>
+		<label>Drop Many ShipChunk</label>
+		<description>Get down!</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EventCalc">
+			<incident>ShipChunkDrop</incident>
+			<minStack>15</minStack>
+			<maxStack>25</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 013:突然の脱出者 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_RefugeePodCrash</defName>
+		<label>Drop RefugeePod</label>
+		<description>Sent a transmission to the rescue pod.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EventCalc">
+			<incident>RefugeePodCrash</incident>
+			<minStack>1</minStack>
+			<maxStack>3</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 014:突然の来訪者 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_Trader</defName>
+		<label>Sudden Visitor</label>
+		<description>It seems that the trader came by accident.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EventCalc">
+			<incident>TraderCaravanArrival</incident>
+			<minStack>1</minStack>
+			<maxStack>1</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+
+	<!-- 015:全員の怪我と病気治癒 -->
+	<!-- 入植者が3人以上ダウンしているとき確率5倍 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_ALLHeal</defName>
+		<label>Healing of all colonists</label>
+		<description>Nanomachines were sprayed for healing.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_AllHeal">
+		</WishCalc>
+		<CountUP>4</CountUP>
+		<WishCountUP Class="LegacyFairy_Race.WishCount_ManyDownColonist">
+		</WishCountUP>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- 016:敵ランダムに1人即死 -->
+	<!-- 敵が10人以上いると確率3倍 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_EnemyRandomDeath</defName>
+		<label>Instant death of one enemy</label>
+		<description>{0} was doomed to death.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_RandomDeath">
+			<EnemyOnly>true</EnemyOnly>
+			<IsMany>false</IsMany>
+		</WishCalc>
+		<CountUP>2</CountUP>
+		<WishCountUP Class="LegacyFairy_Race.WishCount_ManyEnemy">
+		</WishCountUP>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- 017:敵ランダムに複数即死 -->
+	<!-- 敵が10人以上いると確率3倍 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_EnemyRandomDeathMany</defName>
+		<label>Instant death of random enemy</label>
+		<description>Random deaths were visited upon the enemy.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_RandomDeath">
+			<EnemyOnly>true</EnemyOnly>
+			<IsMany>true</IsMany>
+		</WishCalc>
+		<CountUP>2</CountUP>
+		<WishCountUP Class="LegacyFairy_Race.WishCount_ManyEnemy">
+		</WishCountUP>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- 018:今行っている研究が即時終了 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_EndResearch</defName>
+		<label>Complete current research</label>
+		<description>A large amount of material rained down on the research table.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EndResearch">
+			<IsMany>false</IsMany>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- 019:現在行える研究のうちランダムで3つ即終了 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_EndResearchMany</defName>
+		<label>Complete three random research</label>
+		<description>A large amount of material rained down on the research table.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EndResearch">
+			<IsMany>true</IsMany>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- 020:植物の急成長 -->
+	<!-- 餓死中の入植者が居ると確率5倍 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_PlantGrowth</defName>
+		<label>Growth Plant</label>
+		<description>Surrounding plants grew rapidly.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_PlantGrowth">
+			<Death>false</Death>
+		</WishCalc>
+		<CountUP>4</CountUP>
+		<WishCountUP Class="LegacyFairy_Race.WishCount_ColonistHunger">
+		</WishCountUP>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- ここからマイナス効果 -->
+	
+	<!-- 021:入植者がランダムで1人狂暴化 -->
+	<!-- 入植者が15人以上居ると確率2倍 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_RandomBerserk</defName>
+		<label>Colonists turn rabid at random.</label>
+		<description>A wave of frenzy struck {0}</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_MentalDamage">
+			<MentalState>Berserk</MentalState>
+			<Enemy>false</Enemy>
+		</WishCalc>
+		<CountUP>1</CountUP>
+		<WishCountUP Class="LegacyFairy_Race.WishCount_ManyColonist">
+		</WishCountUP>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- 022:入植者がランダムでペスト・マラリア・インフルエンザに同時感染 -->
+	<!-- 入植者が15人以上居ると確率2倍 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_SickRush</defName>
+		<label>Sickness storms among colonists</label>
+		<description>A disease storm hit the colony.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_RandomHediffPlayer">
+			<Hediffs>
+				<li>Plague</li>
+				<li>Malaria</li>
+				<li>Flu</li>
+			</Hediffs>
+		</WishCalc>
+		<CountUP>1</CountUP>
+		<WishCountUP Class="LegacyFairy_Race.WishCount_ManyColonist">
+		</WishCountUP>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- 023:誰か一人がランダムで即死 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_RandomDeath</defName>
+		<label>One of all of them dies instantly</label>
+		<description>{0} was doomed to death.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_RandomDeath">
+			<EnemyOnly>false</EnemyOnly>
+			<IsMany>false</IsMany>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- 024:今ある植物がすべて枯れる -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_PlantKill</defName>
+		<label>Plants die</label>
+		<description>All the surrounding plants have died.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_PlantGrowth">
+			<Death>true</Death>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+	
+	<!-- 025:襲撃発動 -->
+	<LegacyFairy_Race.WishSelectDef>
+		<defName>LgcF_RaidRush</defName>
+		<label>Call to raid</label>
+		<description>They sent out a signal for a raid.</description>
+		<WishCalc Class="LegacyFairy_Race.Wish_EventCalc">
+			<incident>RaidEnemy</incident>
+			<minStack>2</minStack>
+			<maxStack>3</maxStack>
+		</WishCalc>
+	</LegacyFairy_Race.WishSelectDef>
+	
+</Defs>

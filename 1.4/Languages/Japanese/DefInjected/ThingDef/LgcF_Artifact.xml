@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LgcF_BrokenRodOfWish.label>LgcF 壊れた願いの杖</LgcF_BrokenRodOfWish.label>
+  <LgcF_BrokenRodOfWish.description>敵対的なレガシーフェアリー達が稀に持っている謎の杖,時折遺跡から出土する『願いの杖』に似ているため何らかの関連性が疑われるがレガシーフェアリー達から聞き出すことはできておらず未だ謎に包まれている.\n\n使用すれば願いを叶えてくれるのは変わらないが,しばしばその願いとは違った現象を引き起こすため賢い者であれば使わない方が賢明だろう.</LgcF_BrokenRodOfWish.description>
+  <LgcF_BrokenRodOfWish.comps.CompUsable.useLabel>{0}を使用する</LgcF_BrokenRodOfWish.comps.CompUsable.useLabel>
+
+</LanguageData>

@@ -13,5 +13,6 @@ namespace LegacyFairy_Race
     {
         public static readonly Texture2D BrillianceCharge_Icon = ContentFinder<Texture2D>.Get("LegacyFairy/UI/Skill/BrillianceCharge");
         public static readonly Texture2D PrayertoDestiny_Icon = ContentFinder<Texture2D>.Get("LegacyFairy/UI/Skill/PrayertoDestiny");
+        public static readonly Texture2D UsePillar_Icon = ContentFinder<Texture2D>.Get("LegacyFairy/UI/Faction/icon");
     }
 }
