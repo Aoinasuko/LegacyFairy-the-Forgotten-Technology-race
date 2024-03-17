@@ -16,11 +16,34 @@ namespace LegacyFairy_Race
         public static FleshTypeDef LgcF_Fairy;
     }
 
+    [DefOf]
+    public static class Sound_LegacyFairy
+    {
+        public static SoundDef LgcF_Fall;
+    }
+
+    [DefOf]
+    public static class Effect_LegacyFairy
+    {
+        public static EffecterDef LgcF_DebilitatedWish;
+    }
+
+	[DefOf]
+    public static class Thing_LegacyFairy
+    {
+        public static ThingDef LgcF_TOW_DebilitatedWish;
+    }
+
     [StaticConstructorOnStartup]
     public static class LegacyFairy_Graphic
     {
+		public static readonly MaterialPropertyBlock MatPropertyBlock = new MaterialPropertyBlock();
         public static readonly Material HeadSet = MaterialPool.MatFrom("LegacyFairy/Build/PersonalityRegulator/PersonalityRegulator_Parts", reportFailure: true);
         public static readonly Material HeadSet_Open = MaterialPool.MatFrom("LegacyFairy/Build/PersonalityRegulator/PersonalityRegulator_Open", reportFailure: true);
+		public static readonly Material Mat_ShotGear_A = MaterialPool.MatFrom("LegacyFairy/UI/TOW/ShotGear_A", ShaderDatabase.CutoutComplex);
+        public static readonly Material Mat_ShotGear_B = MaterialPool.MatFrom("LegacyFairy/UI/TOW/ShotGear_B", ShaderDatabase.CutoutComplex);
+		public static readonly Material Shield = MaterialPool.MatFrom("LegacyFairy/UI/Mote/ElectricShock", ShaderDatabase.MoteGlow);
+        public static readonly MaterialPropertyBlock ShieldBlock = new MaterialPropertyBlock();
     }
 
     public static class DebugTools_Wish

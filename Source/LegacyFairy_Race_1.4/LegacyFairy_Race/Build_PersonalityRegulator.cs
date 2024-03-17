@@ -94,7 +94,7 @@ namespace LegacyFairy_Race
                         BodyPartRecord bodyPartRecord = ExecutionUtility.ExecuteCutPart(pawn);
                         int num2 = 99999;
                         if (ModsConfig.BiotechActive && pawn.genes != null && pawn.genes.HasGene(GeneDefOf.Deathless))
-                        {                            
+                        {
                             if (pawn.health.hediffSet.HasHediff(HediffDefOf.MechlinkImplant))
                             {
                                 Hediff firstHediffOfDef = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDefOf.MechlinkImplant);

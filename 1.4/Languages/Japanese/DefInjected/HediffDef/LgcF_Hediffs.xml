@@ -16,5 +16,13 @@
   <LgcF_Gravity.label>重力の願い</LgcF_Gravity.label>
   <LgcF_Gravity.description>移動速度が極端に低下している状態です.</LgcF_Gravity.description>
 
+  <LgcF_Debilitated.label>衰弱の願い</LgcF_Debilitated.label>
+  <LgcF_Debilitated.description>移動速度と意識の上限が大幅に低下し,射撃速度も大幅に遅くなっている状態です.</LgcF_Debilitated.description>
+
+  <LgcF_MeteorCharge.label>メテオチャージ</LgcF_MeteorCharge.label>
+  <LgcF_MeteorCharge.description>隕石召喚の詠唱にリソースを割いているため,受けるダメージが大幅に上昇している状態です. 一定回数ダメージを与えることで非常に強力なメテオの召喚を防ぐことが出来ます.</LgcF_MeteorCharge.description>
+
+  <LgcF_WOA.label>覚醒の願い</LgcF_WOA.label>
+  <LgcF_WOA.description>願いの力によって,様々な能力が大幅に強化された状態です.</LgcF_WOA.description>
 
 </LanguageData>

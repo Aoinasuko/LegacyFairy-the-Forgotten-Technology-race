@@ -1,0 +1,3 @@
+このフォルダ内の効果音の一部はtsugiのGameSynthを使用して作られています。
+
+Some of the sound effects in this folder were created using tsugi's GameSynth.

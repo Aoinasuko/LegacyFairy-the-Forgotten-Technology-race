@@ -226,7 +226,7 @@ namespace LegacyFairy_Race
 							Dialog_Wish dialog = new Dialog_Wish();
 							dialog.SetData(pawn);
 							Find.WindowStack.Add(dialog);
-							this.CoolDown = 100000;
+							this.CoolDown = 600000;
                         }
 					};
 					yield return Gizmo2;

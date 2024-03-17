@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LgcF_TOW.label>《The Over Wish》リベンジ</LgcF_TOW.label>
+  <LgcF_TOW.description>ある無名の旅人が集めた資料によると,この機械はかつてB.E.P&#160;Fairy&#160;Techが相対した敵対的な機械によく似た存在であることが判明している.\n\n「本当の死」を願った者に現れ、強大な力によって数多の挑戦者がこの存在の前に散っていった。\n\n&lt;color=#B1FBFF&gt;"…あのポンコツの兵器の１つのコントロールを奪い取らせてもらったよ. 懐かしい気分になったかい？まぁ,せっかく呼んでくれたんだ. 私の"実験"にも付き合ってもらうよ."\n～？？？？？の一言～&lt;/color&gt;</LgcF_TOW.description>
+  <LgcF_TOW.tools.0.label>杖</LgcF_TOW.tools.0.label>
+
+  <LgcF_TOW_Summon.label>?????</LgcF_TOW_Summon.label>
+
+  <LgcF_TOW_DebilitatedWish.label>衰弱の願い</LgcF_TOW_DebilitatedWish.label>
+
+  <LgcF_TOW_Shot.label>射撃の願い</LgcF_TOW_Shot.label>
+
+  <LgcF_TOW_DeathMeteor.label>死のメテオ</LgcF_TOW_DeathMeteor.label>
+
+  <LgcF_TOW_Shield.label>シールド</LgcF_TOW_Shield.label>
+
+</LanguageData>

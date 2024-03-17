@@ -4,6 +4,19 @@
 <LegacyFairy.Update.Title>LegacyFairy Update</LegacyFairy.Update.Title>
 
 <LegacyFairy.Update.label>
+2024/03/17(0.2.2.0):
+*Fixed some bugs
+
+*Added new research
+
+*Added new items
+
+*Added new bosses
+
+*Existing buildings have been deprecated
+Related studies will be removed and items will be deprecated
+They will be removed in the next 1.5 compatible update
+
 2023/08/08(0.2.1.0):
 *Changed some of the race descriptions to fit the storyline
 

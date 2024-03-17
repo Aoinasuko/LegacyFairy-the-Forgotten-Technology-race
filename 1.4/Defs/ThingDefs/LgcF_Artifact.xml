@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
   <ThingDef ParentName="ResourceBase">
     <thingClass>ThingWithComps</thingClass>
     <defName>LgcF_BrokenRodOfWish</defName>
@@ -46,6 +46,102 @@
         <sound>PsychicAnimalPulserCast</sound>
       </li>
     </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>LgcF_FixedRodOfWish</defName>
+    <label>LgcF Fixed Rod of Wish</label>
+    <description>It is a "Rod of Wish" adjusted to wish for only certain wishes. Use it and a mighty being will appear.</description>
+    <techLevel>Archotech</techLevel>
+    <tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>LegacyFairy/Thing/Artifact/FixRodOfWish</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <costList>
+      <LgcF_BrokenRodOfWish>10</LgcF_BrokenRodOfWish>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_MakeBow</soundWorking>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>LgcF_CraftTable</li>
+      </recipeUsers>
+      <researchPrerequisite>LgcF_Knowledge</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+      <Mass>1</Mass>
+      <WorkToMake>60000</WorkToMake>
+    </statBases>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Targetable">
+        <compClass>BEPRace_Core.BEPRace_CompTargetable_Self</compClass>
+      </li>
+      <li Class="BEPRace_Core.CompProperties_SummonBoss">
+        <SummonThing>LgcF_TOW_Summon</SummonThing>
+      </li>
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Activate</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf">
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>LgcF_RodOfAwakening</defName>
+    <label>LgcF Rod of Awakening</label>
+    <description>This is a gift from far in the future, thanks to combat experiment data. The user's consciousness is permanently elevated.\n\n"It's the power that lies beyond the dreams you may someday see... put it to good use."</description>
+    <techLevel>Archotech</techLevel>
+    <tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>LegacyFairy/Thing/Artifact/FixRodOfWish</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>7777</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Targetable">
+        <compClass>BEPRace_Core.BEPRace_CompTargetable_Self</compClass>
+      </li>
+      <li Class="BEPRace_Core.CompProperties_GetBuff">
+        <GetHediff>LgcF_WOA</GetHediff>
+      </li>
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Activate</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf">
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="BEPRace_Core.Wishable">
+        <canWish>false</canWish>
+      </li>
+    </modExtensions>
+    <descriptionHyperlinks>
+      <HediffDef>LgcF_WOA</HediffDef>
+    </descriptionHyperlinks>
   </ThingDef>
   
 </Defs>

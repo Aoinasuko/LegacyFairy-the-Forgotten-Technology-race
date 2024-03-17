@@ -128,4 +128,93 @@
     </comps>
   </HediffDef>
   
+  <!-- 衰弱の願い -->
+  <HediffDef>
+    <defName>LgcF_Debilitated</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.2, 0.8, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Debilitated Wish</label>
+    <description>It is a debilitating condition caused by the power of wishes.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.5</setMax>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.5</setMax>
+          </li>
+        </capMods>
+        <statFactors>
+          <AimingDelayFactor>5</AimingDelayFactor>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>2500</min>
+          <max>2500</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <!-- メテオチャージ -->
+  <HediffDef>
+    <defName>LgcF_MeteorCharge</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.2, 0.8, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Meteor Charge</label>
+    <description>The power is concentrated on summoning the Meteor, and the damage received is increasing. In this state, you can prevent the summoning of Meteor by attacking more than a certain number of times.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <IncomingDamageFactor>100</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>1300</min>
+          <max>1300</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>LgcF_WOA</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Wish of Awakening</label>
+    <description>It is a state of increased.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>1</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>1</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+			<ToxicResistance>1</ToxicResistance>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<MoveSpeed>5</MoveSpeed>
+		</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
 </Defs>

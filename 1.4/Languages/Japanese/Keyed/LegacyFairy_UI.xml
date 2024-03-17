@@ -26,4 +26,10 @@
 
   <LegacyFairy.UI.Wish>"ナニヲノゾムノダ…？"</LegacyFairy.UI.Wish>
 
+  <LegacyFairy.TOW.MeteorCharge>"隕石召喚詠唱開始,目標は周囲一帯の生物の絶滅..."</LegacyFairy.TOW.MeteorCharge>
+  <LegacyFairy.TOW.MeteorChargeWarn>"隕石召喚詠唱,残り10秒..."</LegacyFairy.TOW.MeteorChargeWarn>
+  <LegacyFairy.TOW.MeteorCancel>"予想外のダメージを検知,詠唱を中断し規模を縮小します..."</LegacyFairy.TOW.MeteorCancel>
+
+  <LgcF_TOW.BossDesc>-このボスは大技のチャージ前以外は全ての攻撃が1ダメージしか通りません.\n\n-攻撃されると,確率で視界内の敵に時限式の爆発攻撃を行ってきます. 誰が狙われたか常に把握しましょう.\n\n-大量の射撃タレット展開は部位の最大HPを減らす爆発弾を放ってくるため射程外に放すことをお勧めします.\n\n-メテオの合図が出たら移動しなくなります,集中的に攻撃を加えましょう. 一定時間内にボスに規定回数ダメージを与えられなかった場合ボスは全域に膨大なダメージを与えます.</LgcF_TOW.BossDesc>
+
 </LanguageData>

@@ -70,9 +70,6 @@
   <LgcF_RandomDeath.label>誰か1人即死</LgcF_RandomDeath.label>
   <LgcF_RandomDeath.description>{0}に死の運命が訪れた.</LgcF_RandomDeath.description>
 
-  <LgcF_RandomDeath.label>誰か1人即死</LgcF_RandomDeath.label>
-  <LgcF_RandomDeath.description>{0}に死の運命が訪れた.</LgcF_RandomDeath.description>
-
   <LgcF_PlantKill.label>植物を枯れさせる</LgcF_PlantKill.label>
   <LgcF_PlantKill.description>周囲の植物がすべて枯れた.</LgcF_PlantKill.description>
 

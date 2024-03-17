@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="BasePawn">
+		<defName>LgcF_TOW</defName>
+		<label>The Over Wish Revenge</label>
+		<description>According to documents gathered by an unnamed traveler, this machine turned out to be similar to a hostile machine that B.E.P Fairy Tech once faced. Numerous challengers have been scattered before this being by its mighty power, appearing before those who wished for a "TRUE DEATH."\n\n&lt;color=#B1FBFF&gt;"I've been allowed to take control of one of those clunker weapons. Feeling nostalgic? Well, you invited me here. I'll let you experiment on me."&lt;/color&gt;</description>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<statBases>
+			<MoveSpeed>7.7</MoveSpeed>
+			<MarketValue>7777</MarketValue>
+			<ComfyTemperatureMin>-7777</ComfyTemperatureMin>
+			<ComfyTemperatureMax>7777</ComfyTemperatureMax>
+			<ArmorRating_Sharp>7.77</ArmorRating_Sharp>
+			<ArmorRating_Blunt>7.77</ArmorRating_Blunt>
+			<ArmorRating_Heat>7.77</ArmorRating_Heat>
+			<ImmunityGainSpeed>3</ImmunityGainSpeed>
+			<PainShockThreshold>10</PainShockThreshold>
+			<ToxicResistance>1</ToxicResistance>
+			<IncomingDamageFactor>0</IncomingDamageFactor>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<Flammability>0</Flammability>
+			<MeatAmount>0</MeatAmount>
+		</statBases>
+		<tools>
+			<li>
+				<label>Rod</label>
+				<capacities>
+				  <li>Scratch</li>
+				  <li>Stab</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+		<race>
+			<fleshType>Mechanoid</fleshType>
+			<needsRest>false</needsRest>
+			<hasGenders>false</hasGenders>
+			<foodType>None</foodType>
+			<lifeExpectancy>7777</lifeExpectancy>
+			<bloodDef>Filth_MachineBits</bloodDef>
+			<body>Human</body>
+			<intelligence>ToolUser</intelligence>
+			<thinkTreeMain>Mechanoid</thinkTreeMain>
+			<baseBodySize>4</baseBodySize>
+			<baseHungerRate>0</baseHungerRate>
+			<baseHealthScale>100</baseHealthScale>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">
+					<def>MechanoidFullyFormed</def>
+					<minAge>100</minAge>
+					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundCallIntervalRange>1000~2000</soundCallIntervalRange>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+			<mechWeightClass>UltraHeavy</mechWeightClass>
+		</race>
+		<butcherProducts>
+			<Steel>500</Steel>
+		</butcherProducts>
+		<comps>
+			<li Class="BEPRace_Core.CompProperties_BossDesc">
+			</li>
+			<li Class="BEPRace_Core.CompProperties_BossHP">
+				<MaxHP>7777</MaxHP>
+				<StartHP>7777</StartHP>
+				<TexPath>LegacyFairy/UI/HP</TexPath>
+				<Song>LgcF_RageOfWish</Song>
+			</li>
+			<li Class="LegacyFairy_Race.CompProperties_TOW">
+			</li>
+		</comps>
+		<damageMultipliers>
+			<li>
+				<damageDef>Stun</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>EMP</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+		</damageMultipliers>
+		<modExtensions>
+			<li Class="BEPRace_Core.Wishable">
+				<canWish>false</canWish>
+			</li>
+			<li Class="BEPRace_Core.BEPRace_Setting">
+				<ignoreDeath>true</ignoreDeath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="BaseMechanoidKind">
+		<defName>LgcF_TOW</defName>
+		<label>The Over Wish Revenge</label>
+		<race>LgcF_TOW</race>
+		<combatPower>7777</combatPower>
+		<isFighter>false</isFighter>
+		<weaponMoney>9999~9999</weaponMoney>
+		<weaponTags></weaponTags>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>
+		<lifeStages>
+			<li>
+			  <bodyGraphicData>
+				<texPath>LegacyFairy/TOW/TOW</texPath>
+				<shaderType>Cutout</shaderType>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>3</drawSize>
+			  </bodyGraphicData>
+			</li>
+			<li>
+			  <bodyGraphicData>
+				<texPath>LegacyFairy/TOW/TOW</texPath>
+				<shaderType>Cutout</shaderType>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>3</drawSize>
+			  </bodyGraphicData>
+			</li>
+		  </lifeStages>
+	</PawnKindDef>
+
+	<!-- 召喚演出 -->
+	<ThingDef>
+		<defName>LgcF_TOW_Summon</defName>
+		<label>?????</label>
+		<thingClass>LegacyFairy_Race.TOW_SummonThing</thingClass>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<texPath>LegacyFairy/Thing/Weapon/LGOR_Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<!-- 衰弱の願い -->
+	<ThingDef>
+		<defName>LgcF_TOW_DebilitatedWish</defName>
+		<label>Debilitated Wish</label>
+		<thingClass>LegacyFairy_Race.TOW_Debilitated</thingClass>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<texPath>LegacyFairy/UI/Mote/DangerousArea</texPath>
+			<shaderType>Transparent</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>10</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<!-- 射撃ギア -->
+	<ThingDef>
+		<defName>LgcF_TOW_Shot</defName>
+		<label>Shot Wish</label>
+		<thingClass>ThingWithComps</thingClass>
+		<tickerType>Normal</tickerType>
+		<comps>
+		  <li Class="LegacyFairy_Race.CompProperties_Shot">
+		  </li>
+		</comps>
+		<graphicData>
+			<texPath>LegacyFairy/UI/TOW/Clear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<!-- メテオ -->
+	<ThingDef>
+		<defName>LgcF_TOW_DeathMeteor</defName>
+		<label>Death Meteor</label>
+		<thingClass>LegacyFairy_Race.TOW_DeathMeteor</thingClass>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<texPath>LegacyFairy/UI/TOW/Clear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<!-- シールド -->
+	<ThingDef>
+		<defName>LgcF_TOW_Shield</defName>
+		<label>Shield</label>
+		<thingClass>LegacyFairy_Race.TOW_Shield</thingClass>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<texPath>LegacyFairy/UI/TOW/Clear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

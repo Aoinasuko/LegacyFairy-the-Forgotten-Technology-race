@@ -92,6 +92,7 @@
     <Compile Include="Thing\Command_Select.cs" />
     <Compile Include="Thing\LegacyFairy_Comp.cs" />
     <Compile Include="Thing\PillarBase_Comp.cs" />
+    <Compile Include="Thing\TOW.cs" />
     <Compile Include="Thing\WishPower_Comp.cs" />
     <Compile Include="WishCount\WishCount_ManyDownColonist.cs" />
     <Compile Include="WishCount\WishCount_ColonistHunger.cs" />

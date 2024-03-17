@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<EffecterDef>
+		<defName>LgcF_DebilitatedWish</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+				<soundDef>LgcF_DebilitatedWish</soundDef>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>Fleck_RadialSparks</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<color>(200,200,255)</color>
+				<scale>2</scale>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>Fleck_VaporizeGlow</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<color>(200,200,255)</color>
+				<scale>2</scale>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>Fleck_VaporizeRays_A</fleckDef>
+				<burstCount>1</burstCount>
+				<rotationRate>30</rotationRate>
+				<spawnLocType>OnSource</spawnLocType>
+				<color>(200,200,255)</color>
+				<scale>2</scale>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>Fleck_VaporizeRays_B</fleckDef>
+				<burstCount>1</burstCount>
+				<rotationRate>-20</rotationRate>
+				<spawnLocType>OnSource</spawnLocType>
+				<color>(200,200,255)</color>
+				<scale>2</scale>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>Fleck_VaporizeCenterFlash</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<color>(200,200,255)</color>
+				<scale>2</scale>
+			</li>
+		</children>
+	</EffecterDef>
+
+</Defs>

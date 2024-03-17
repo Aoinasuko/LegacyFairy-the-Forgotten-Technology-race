@@ -25,5 +25,11 @@
   <LegacyFairy.UI.CantCast>You must have at least a total of {0} silver in order to perform the conversion.</LegacyFairy.UI.CantCast>
 
   <LegacyFairy.UI.Wish>What do you want?</LegacyFairy.UI.Wish>
+  
+  <LegacyFairy.TOW.MeteorCharge>"Start chanting to summon the meteorite."</LegacyFairy.TOW.MeteorCharge>
+  <LegacyFairy.TOW.MeteorChargeWarn>"Meteorite summoner chanting, 10 seconds left..."</LegacyFairy.TOW.MeteorChargeWarn>
+  <LegacyFairy.TOW.MeteorCancel>"If unexpected damage is detected, the chanting is interrupted and the scale is reduced..."</LegacyFairy.TOW.MeteorCancel>
+
+  <LgcF_TOW.BossDesc>-This boss is very defensive and all attacks do only 1 damage except before the charge of the big move.\n\n-When attacked, the boss will perform a timed explosion attack on enemies in sight. Always keep track of who is targeted.\n\n-Massive shooting turrets will fire explosive rounds that will reduce the maximum HP of the target area, so it is recommended to keep them out of range.\n\n-When the meteors signal is given, they will stop moving, so concentrate your attacks on them. If you fail to damage the boss a certain number of times within a certain period of time, the boss will deal a huge amount of damage to the entire area.</LgcF_TOW.BossDesc>
 
 </LanguageData>
