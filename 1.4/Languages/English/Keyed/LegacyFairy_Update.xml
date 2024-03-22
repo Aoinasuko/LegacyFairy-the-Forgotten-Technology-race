@@ -4,6 +4,10 @@
 <LegacyFairy.Update.Title>LegacyFairy Update</LegacyFairy.Update.Title>
 
 <LegacyFairy.Update.label>
+2024/03/22(0.2.2.1):
+*that a bad event will occur the moment the residual WP reaches 100
+clearly stated in the description of the residual WP
+
 2024/03/17(0.2.2.0):
 *Fixed some bugs
 

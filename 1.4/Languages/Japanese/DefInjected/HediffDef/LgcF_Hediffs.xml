@@ -22,7 +22,7 @@
   <LgcF_MeteorCharge.label>メテオチャージ</LgcF_MeteorCharge.label>
   <LgcF_MeteorCharge.description>隕石召喚の詠唱にリソースを割いているため,受けるダメージが大幅に上昇している状態です. 一定回数ダメージを与えることで非常に強力なメテオの召喚を防ぐことが出来ます.</LgcF_MeteorCharge.description>
 
-  <LgcF_WOA.label>覚醒の願い</LgcF_WOA.label>
+  <LgcF_WOA.label>願望の祝福(覚醒)</LgcF_WOA.label>
   <LgcF_WOA.description>願いの力によって,様々な能力が大幅に強化された状態です.</LgcF_WOA.description>
 
 </LanguageData>

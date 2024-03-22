@@ -20,7 +20,7 @@
   <LegacyFairy.Item.WishEnd>あなたのコロニーに{0}が降ってきた.</LegacyFairy.Item.WishEnd>
 
   <LegacyFairy.UI.WPBad>残留WP</LegacyFairy.UI.WPBad>
-  <LegacyFairy.UI.WPBadDesc>WPの施設を使用するとしばらく負の影響を持ったWPが周辺地域に溜まっていきます.\n\n短時間に施設で多くWPを消費してしまうと,悪いイベントを呼び寄せてしまうでしょう.</LegacyFairy.UI.WPBadDesc>
+  <LegacyFairy.UI.WPBadDesc>WPの施設を使用するとしばらく負の影響を持ったWPが周辺地域に溜まっていきます.\n\n短時間に施設で多くWPを消費してしまうと,悪いイベントを呼び寄せてしまうでしょう. 残留WPの値が100になった瞬間に悪いイベントがほぼ完全にランダムで発動し,残留WPの値が0に戻ります.</LegacyFairy.UI.WPBadDesc>
 
   <LegacyFairy.UI.CantCast>アイテムの価値が足りない為変換できません. 変換を行うためには最低でも合計{0}シルバーの価値が必要です.</LegacyFairy.UI.CantCast>
 
